@@ -16,7 +16,7 @@ redcarpet:
 
 JB:
     BASE_PATH: false
-    ASSET_PATH: /assets/
+    ASSET_PATH: /static/
     atom_path: /atom.xml
     rss_path: /rss.xml
     comments:
@@ -31,7 +31,7 @@ prose:
     media: "media"
     ignore:
         - 404.html
-        - assets
+        - static
         - CNAME
         - _config.yml
         - Gemfile
