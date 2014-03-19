@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
-# FOR ADDING FOUNDATION:
-# add_import_path "components/foundation/scss"
+add_import_path "components/foundation/scss"
+require "zurb-foundation"
 
 # Set this to the root of your project when deployed:
 http_path = "/static"
