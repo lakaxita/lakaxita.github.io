@@ -9,6 +9,7 @@ production_url: http://lakaxita.org/
 admin_url: http://prose.io/#lakaxita/lakaxita.github.io
 permalink: /:categories/:year/:month/:day/:title
 
+exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
 pygments: true
 markdown: redcarpet
 redcarpet:
