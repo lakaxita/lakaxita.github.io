@@ -1,0 +1,58 @@
+title: Lakaxita
+tagline: Irungo Lakaxita Gaztetxea
+author:
+    name: Lakaxita
+    email: lakaxita@gmail.com
+    github: lakaxita
+
+production_url: http://lakaxita.org/
+permalink: /:categories/:year/:month/:day/:title
+
+pygments: true
+markdown: redcarpet
+redcarpet:
+    extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
+                "quote", "footnotes"]
+
+JB:
+    BASE_PATH: false
+    ASSET_PATH: /assets/
+    atom_path: /atom.xml
+    rss_path: /rss.xml
+    comments:
+        provider: false
+    analytics:
+        provider: false
+    sharing:
+        provider: false
+
+prose:
+    siteurl: "http://lakaxita.org"
+    media: "media"
+    ignore:
+        - 404.html
+        - assets
+        - CNAME
+        - _config.yml
+        - Gemfile
+        - Gemfile.lock
+        - _includes
+        - json
+        - _layouts
+        - _site
+        - sitemap.txt
+        - .gitignore
+        - .travis.yml
+    metadata:
+        _posts:
+            -
+                name: "title"
+                field:
+                    label: "Title"
+                    element: "text"
+            -
+                name: "author"
+                field:
+                    label: "Author"
+                    element: "text"
+                    value: "Lakaxita"
