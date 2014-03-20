@@ -7,7 +7,9 @@ title: Posts
     <section class="{{ category }}">
         {% for post in category %}
         <article>
+            {% if post.date %}
             <time>{{ post.date | date_to_string }}</time>
+            {% endif %}
             <a href="{{ post.url }}">{{ post.title }}</a>
         </article>
         {% endfor %}
