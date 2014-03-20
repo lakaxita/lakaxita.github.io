@@ -5,7 +5,7 @@ type: home
 ---
 <section id="posts">
     {% for post in site.posts %}
-    <article class="{{ post.categories }}">
+    <article class="{{ post.categories|join:" " }}">
         {% if post.date %}
         <time>{{ post.date | date_to_string }}</time>
         {% endif %}
