@@ -6,25 +6,39 @@ $black: #0a0a0a
 $dark: #1a1a1a
 $white: #ececec
 
+$serif: Arvo
+$sans: Lato
+
+h1, h2, h3, h4, h5, h6
+    font-family: inherit
 
 body
     background: $dark
 
 header
     color: $white
+    font-family: $serif
     h1.title, ul.licenses
         position: absolute
         top: 0
+        background: $black
+        margin: 0 !important
     h1.title
         left: 0
+        img
+            width: 10%
     ul.licenses
         right: 0
+    div#description
+        p
+            font-family: $sans
 
 div#wrap
     background: $white
     color: $black
     margin: 0
-    +grid-row($behavior: nest)
+    font-family: $sans
+//    +grid-row($behavior: nest)
     main
         +grid-column($columns:12)
         @media #{$medium-up} 
