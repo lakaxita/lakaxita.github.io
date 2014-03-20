@@ -6,7 +6,23 @@ $white: #ececec
 body
     background: $dark
 
+header
+    color: $white
+    h1.title, ul.licenses
+        position: absolute
+        top: 0
+    h1.title
+        left: 0
+    ul.licenses
+        right: 0
+
 div#wrap
     background: $white
     color: $black
-    
+    width: 100% !important
+    +grid-row($behavior: nest)
+    main
+        +grid-column($columns:8)
+    aside
+        +grid-column($columns:4)
+
