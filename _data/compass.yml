@@ -1,4 +1,6 @@
 ---
+import_paths:
+- static/components/foundation/scss
 require:
 - jekyll-compass
 - zurb-foundation
