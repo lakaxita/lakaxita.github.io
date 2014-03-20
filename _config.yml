@@ -48,6 +48,7 @@ prose:
         - sitemap.txt
         - .gitignore
         - .travis.yml
+        - _sass
     metadata:
         "":
             -
