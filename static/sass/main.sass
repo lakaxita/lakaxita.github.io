@@ -11,6 +11,7 @@ $sans: Lato
 
 h1, h2, h3, h4, h5, h6
     font-family: inherit
+    color: inherit
 
 body
     background: $dark
@@ -34,24 +35,31 @@ header
         li
             list-style: none
     div#description
+        text-align: right
+        margin: 0 !important
         +grid-row($behavior: nest)
         div#description_text
-            +grid-column($columns:8, $center: true)
+            vertical-align: bottom !important
+            +grid-column($columns:10)
             @media #{$medium-up}
-                +grid-column($columns:4, $center:true)
+                +grid-column($columns:4, $offset:3)
+            h1
+                margin-top: 0 !important
+                font-size: 1.5em
             p
                 font-family: $sans
-        img
-            width: 100%
-            +grid-column($columns:8, $center: true)
+        div#description_image
+            vertical-align: bottom !important
+            +grid-column($columns:10)
             @media #{$medium-up}
-                +grid-column($columns:2, $center:true)
+                +grid-column($columns:2)
 
 div#wrap
     background: $white
     color: $black
-    margin: 0
+    margin: 0 !important
     font-family: $sans
+    max-width: 100% !important
     +grid-row($behavior: nest)
     main
         +grid-column($columns:12)
