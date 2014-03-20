@@ -4,14 +4,16 @@ title: Posts
 type: home
 ---
 <section id="posts">
-    {% for post in site.posts %}
-    <article>
-        {% if post.date %}
-        <time>{{ post.date | date_to_string }}</time>
-        {% endif %}
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </article>
-    {% endfor %}
+    <section class="all">
+        {% for post in site.posts %}
+        <article>
+            {% if post.date %}
+            <time>{{ post.date | date_to_string }}</time>
+            {% endif %}
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </article>
+        {% endfor %}
+    </section>
 
     {% for category in site.categories %}
     <section class="{{ category|first }}">
