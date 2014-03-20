@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6
 body
     background: $dark
     font-family: inherit
+    position: static
 
 header
     color: $white
@@ -33,15 +34,25 @@ header
         li
             list-style: none
     div#description
-        p
-            font-family: $sans
+        +grid-row($behavior: nest)
+        div#description_text
+            +grid-column($columns:8, $center: true)
+            @media #{$medium-up}
+                +grid-column($columns:4, $center:true)
+            p
+                font-family: $sans
+        img
+            width: 100%
+            +grid-column($columns:8, $center: true)
+            @media #{$medium-up}
+                +grid-column($columns:2, $center:true)
 
 div#wrap
     background: $white
     color: $black
     margin: 0
     font-family: $sans
-//    +grid-row($behavior: nest)
+    +grid-row($behavior: nest)
     main
         +grid-column($columns:12)
         @media #{$medium-up} 
