@@ -33,6 +33,9 @@
         <div id="wrap">
             <aside>
                 <nav>
+                    {% for category in site.categories %}
+                    <a href="">{{ category|first }}</a>
+                    {% endfor %}
                 </nav>
             </aside>
 
