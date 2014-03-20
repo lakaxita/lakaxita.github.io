@@ -67,6 +67,7 @@ prose:
                 field:
                     label: "Author"
                     element: "select"
+                    value: 'lakaxita'
                     options:
                         - name: 'Lakaxita'
                           value: 'lakaxita'
