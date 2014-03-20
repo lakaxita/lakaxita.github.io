@@ -4,9 +4,9 @@ import_paths:
 require:
 - jekyll-compass
 - zurb-foundation
-project_path: static/sass
+project_path: _sass
 http_path: /
 css_dir: static/stylesheets
 sass_dir: .
-images_dir: images
-javascripts_dir: javascripts
+images_dir: static/images
+javascripts_dir: static/javascripts
