@@ -25,20 +25,22 @@
                 <li>Edukia: </li>
                 <li>Webgunea: </li>
             </ul>
-            {% if page.type == 'home' %}
-            {% include header.html %}
-            {% endif %}
+            <div id="description">
+                {% if page.type == 'home' %}
+                {% include header.html %}
+                {% endif %}
+            </div>
         </header>
 
         <div id="wrap">
+            <main>
+                {{ content }}
+            </main>
+
             <aside>
                 <nav>
                 </nav>
             </aside>
-
-            <main>
-                {{ content }}
-            </main>
         </div>
 
         <footer>
