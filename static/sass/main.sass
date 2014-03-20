@@ -1,30 +1,86 @@
 @import foundation
+@import foundation/_settings
+@import _settings
 
 $black: #0a0a0a
 $dark: #1a1a1a
 $white: #ececec
 
+$serif: Arvo
+$sans: Lato
+
+h1, h2, h3, h4, h5, h6
+    font-family: inherit
+    color: inherit
 
 body
     background: $dark
+    font-family: inherit
+    position: static
 
 header
     color: $white
-    h1.title, ul.licenses
-        position: absolute
-        top: 0
+    font-family: $serif
+    max-width: 100% !important
+    +grid-row($behavior: nest)
     h1.title
+        background: $black
         left: 0
+        font-size: 1.7em
+        font-weight: normal
+        padding: 0 .5em !important
+        margin: 0 !important
+        +grid-column($columns:5)
+        @media #{$medium-up}
+            +grid-column($columns:2)
+        a
+            color: $white
+        img
+            width: 40%
     ul.licenses
+        background: $black
+        +grid-column($columns:5, $collapse: 2)
+        @media #{$medium-up}
+            +grid-column($columns:2, $offset:8)
         right: 0
+        li
+            list-style: none
+section#description
+    color: $white
+    text-align: right
+    margin: 0 !important
+    +grid-row($behavior: nest)
+    div#description_text
+        vertical-align: bottom !important
+        +grid-column($columns:10)
+        @media #{$medium-up}
+            +grid-column($columns:4, $offset:3)
+        h1
+            font-weight: normal
+            font-family: $serif
+            margin-top: 0 !important
+            font-size: 1.5em
+        p
+            font-family: $sans
+    div#description_image
+        vertical-align: bottom !important
+        +grid-column($columns:10)
+        @media #{$medium-up}
+            +grid-column($columns:2)
 
 div#wrap
     background: $white
     color: $black
-    width: 100% !important
+    margin: 0 !important
+    font-family: $sans
+    max-width: 100% !important
     +grid-row($behavior: nest)
     main
-        +grid-column($columns:8)
+        +grid-column($columns:12)
+        @media #{$medium-up} 
+            +grid-column($columns:8)
     aside
-        +grid-column($columns:4)
+        +grid-column($columns:12)
+        @media #{$medium-up} 
+            +grid-column($columns:4)
 
