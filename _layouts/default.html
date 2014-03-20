@@ -17,6 +17,8 @@
 
         <link href="{{ ASSET_PATH }}stylesheets/app.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
         <script src="{{ ASSET_PATH }}javascripts/custom.modernizr.js"></script>
+        <script src="{{ ASSET_PATH }}javascripts/zepto.js"></script>
+        <script src="{{ ASSET_PATH }}javascripts/app.js"></script>
     </head>
     <body>
         <header>
@@ -40,7 +42,7 @@
             <aside>
                 <nav>
                     {% for category in site.categories %}
-                    <a href="">{{ category|first }}</a>
+                    <a class="posts" href="">{{ category|first }}</a>
                     {% endfor %}
                 </nav>
             </aside>
