@@ -58,6 +58,11 @@ prose:
                     element: "text"
         _posts:
             -
+                name: "title"
+                field:
+                    label: "Title"
+                    element: "text"
+            -
                 name: "categories"
                 field:
                     label: "Author"
