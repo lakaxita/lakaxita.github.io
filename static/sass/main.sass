@@ -11,6 +11,8 @@ $sans: Lato
 h1, h2, h3, h4, h5, h6
     font-family: inherit
     color: inherit
+h1, h2
+    font-family: $serif
 
 body
     background: $dark
@@ -34,7 +36,6 @@ header
         +grid-column($columns:5, $collapse: 2)
         @media #{$medium-up}
             +grid-column($columns:2, $offset:8)
-        right: 0
         li
             list-style: none
     h1.title, ul.licenses
@@ -50,17 +51,14 @@ section#description
     margin: 0 !important
     +grid-row($behavior: nest)
     div#description_text
-        vertical-align: bottom !important
         +grid-column($columns:10)
         @media #{$medium-up}
             +grid-column($columns:4, $offset:3)
         h1
             font-weight: normal
-            font-family: $serif
             margin-top: 0 !important
             font-size: 1.5em
     div#description_image
-        vertical-align: bottom !important
         +grid-column($columns:10)
         @media #{$medium-up}
             +grid-column($columns:2)
@@ -80,3 +78,14 @@ div#wrap
         @media #{$medium-up} 
             +grid-column($columns:4)
 
+div#wrap:before
+    position: absolute
+    content: ''
+    pointer-events: none
+    background: black
+    border-radius: 50%
+    height: 100px
+    left: 50%
+    transform: translateX(-50%)
+    width: 100px
+    z-index: 10
