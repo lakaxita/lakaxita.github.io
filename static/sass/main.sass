@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6
 
 body
     background: $dark
-    font-family: inherit
+    font-family: $sans
     position: static
 
 header
@@ -23,27 +23,27 @@ header
     max-width: 100% !important
     +grid-row($behavior: nest)
     h1.title
-        background: $black
-        left: 0
         font-size: 1.7em
         font-weight: normal
-        padding: 0 .5em !important
-        margin: 0 !important
         +grid-column($columns:5)
         @media #{$medium-up}
             +grid-column($columns:2)
-        a
-            color: $white
         img
             width: 40%
     ul.licenses
-        background: $black
         +grid-column($columns:5, $collapse: 2)
         @media #{$medium-up}
             +grid-column($columns:2, $offset:8)
         right: 0
         li
             list-style: none
+    h1.title, ul.licenses
+        background: $black
+        padding: 0 .5em !important
+        margin: 0 !important
+        a
+            color: $white
+        
 section#description
     color: $white
     text-align: right
@@ -59,8 +59,6 @@ section#description
             font-family: $serif
             margin-top: 0 !important
             font-size: 1.5em
-        p
-            font-family: $sans
     div#description_image
         vertical-align: bottom !important
         +grid-column($columns:10)
@@ -71,7 +69,6 @@ div#wrap
     background: $white
     color: $black
     margin: 0 !important
-    font-family: $sans
     max-width: 100% !important
     +grid-row($behavior: nest)
     main
