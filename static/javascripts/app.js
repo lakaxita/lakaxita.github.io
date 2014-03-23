@@ -7,8 +7,11 @@ function filter_posts(category) {
 };
 
 $(document).ready(function() {
+    $(document).foundation();
+
     var category = window.location.hash.replace('#','');
     filter_posts(category);
+
     $('nav a.posts').click(function(event) {
         var category = $(this).text();
         filter_posts(category);
