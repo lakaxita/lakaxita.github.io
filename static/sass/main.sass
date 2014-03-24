@@ -23,43 +23,56 @@ header
     color: $white
     font-family: $serif
     max-width: 100% !important
+    margin: 0 0 2em 0 !important
+    background: $black
     +grid-row($behavior: nest)
+    @media #{$medium-up}
+        background: none
+    h1.title, ul.licenses
+        background: $black
+        padding: .4em !important
+        margin: 0 !important
+        a
+            color: $white
+        a:first-child
+            display: none
+            @media #{$medium-up}
+                display: inline-block
     h1.title
         font-size: 1.7em
         font-weight: normal
-        +grid-column($columns:5)
+        +grid-column($columns:7)
         @media #{$medium-up}
             +grid-column($columns:2)
         img
             width: 40%
+            margin-left: 5%
     ul.licenses
-        +grid-column($columns:5, $collapse: 2)
+        +grid-column($columns:5)
         @media #{$medium-up}
             +grid-column($columns:2, $offset:8)
         li
             list-style: none
-    h1.title, ul.licenses
-        background: $black
-        padding: 0 .5em !important
-        margin: 0 !important
-        a
-            color: $white
+
         
 section#description
     color: $white
-    text-align: right
-    margin: 0 !important
+    margin: 0 0 2em 0 !important
     +grid-row($behavior: nest)
     div#description_text
-        +grid-column($columns:10)
+        text-align: justify
+        +grid-column($columns:12)
         @media #{$medium-up}
+            text-align: right
             +grid-column($columns:4, $offset:3)
         h1
             font-weight: normal
             margin-top: 0 !important
-            font-size: 1.5em
+            font-size: 2em
+            @media #{$medium-up}
+                font-size: 1.5em
     div#description_image
-        +grid-column($columns:10)
+        +grid-column($columns:12)
         @media #{$medium-up}
             +grid-column($columns:2)
 
