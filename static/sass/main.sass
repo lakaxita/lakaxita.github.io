@@ -1,9 +1,11 @@
 @import foundation
 @import settings
 
-$black: #0a0a0a
-$dark: #1a1a1a
-$white: #ececec
+$black: scale-lightness(#000, 4%)
+$dark: scale-lightness(#000, 9%)
+$grey: scale-lightness(#000, 30%)
+$lightgrey: scale-lightness(#fff, -30%)
+$white: scale-lightness(#fff, -10%)
 
 $serif: Arvo
 $sans: Lato
@@ -85,11 +87,11 @@ div#wrap
     main
         +grid-column($columns:12)
         @media #{$medium-up} 
-            +grid-column($columns:8)
+            +grid-column($columns:9)
     aside
         +grid-column($columns:12)
         @media #{$medium-up} 
-            +grid-column($columns:4)
+            +grid-column($columns:3)
 
 div#wrap:before
     position: absolute
@@ -97,8 +99,8 @@ div#wrap:before
     pointer-events: none
     background: black
     border-radius: 50%
-    height: 100px
+    height: 80px
     left: 50%
     transform: translateX(-50%)
-    width: 100px
+    width: 80px
     z-index: 10
