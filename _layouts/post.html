@@ -4,13 +4,12 @@ layout: default
 {% include JB/setup %}
 <article>
     <h2 class="title" >{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date_to_string }}</p>
 
     {{ content }}
 
     <address class="signature">
         <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a>
-        <span class="date">{{ page.date | date_to_long_string }}</span>
+        <span class="date">{{ page.date | date:"%Y/%m/%d" }}</span>
         <span class="location">{{ page.location }}</span>
     </address>
 
