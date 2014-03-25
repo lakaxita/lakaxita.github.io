@@ -65,7 +65,7 @@ header
     ul#licenses
         +grid-column($columns:5)
         @media #{$medium-up}
-            +grid-column($columns:2, $offset:6)
+            +grid-column($columns:2, $offset:7)
         li
             list-style: none
 
@@ -98,13 +98,26 @@ div#wrap
     max-width: 100% !important
     +grid-row($behavior: nest)
     main
+        margin-top: 50px
         +grid-column($columns:12)
-        @media #{$medium-up} 
+        @media #{$large-up} 
             +grid-column($columns:9)
     aside
+        margin-top: 50px
         +grid-column($columns:12)
-        @media #{$medium-up} 
+        @media #{$large-up} 
             +grid-column($columns:3)
+        nav
+            ul
+                margin: 0
+                list-style: none
+                li
+                    background: $grey
+                    width: 100%
+                    margin: .2em
+                    padding: 0 .5em
+                    a
+                        color: $white
 
 div#wrap:before
     position: absolute
