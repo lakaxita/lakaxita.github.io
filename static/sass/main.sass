@@ -4,7 +4,7 @@
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
 $grey: scale-lightness(#000, 30%)
-$lightgrey: scale-lightness(#fff, -30%)
+$light: scale-lightness(#fff, -30%)
 $white: scale-lightness(#fff, -10%)
 
 $serif: Arvo
@@ -110,10 +110,10 @@ div#wrap:before
     position: absolute
     content: ''
     pointer-events: none
-    background: black
+    background: $dark
     border-radius: 50%
     height: 80px
     left: 50%
-    transform: translateX(-50%)
+    transform: translate(-50%,-50%)
     width: 80px
     z-index: 10
