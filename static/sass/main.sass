@@ -74,14 +74,16 @@ header
         
 section#description
     color: $white
-    margin: 0 0 2em 0 !important
+    margin: 0 0 4em 0 !important
     +grid-row($behavior: nest)
     div#description_text
         text-align: justify
         +grid-column($columns:12)
         @media #{$medium-up}
             text-align: right
-            +grid-column($columns:4, $offset:3)
+            +grid-column($columns:5, $offset:1)
+        @media #{$large-up}
+            +grid-column($columns:4, $offset:2)
         h1
             font-weight: normal
             margin-top: 0 !important
@@ -91,6 +93,8 @@ section#description
     div#description_image
         +grid-column($columns:12)
         @media #{$medium-up}
+            +grid-column($columns:3)
+        @media #{$large-up}
             +grid-column($columns:2)
 
 div#wrap
