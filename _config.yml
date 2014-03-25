@@ -57,6 +57,12 @@ prose:
                     value: "page"
                     element: "hidden"
             -
+                name: "published"
+                field:
+                    label: "Published"
+                    value: true
+                    element: "checkbox"
+            -
                 name: "title"
                 field:
                     label: "Title"
@@ -68,6 +74,12 @@ prose:
                     label: "Layout"
                     value: "post"
                     element: "hidden"
+            -
+                name: "published"
+                field:
+                    label: "Published"
+                    value: true
+                    element: "checkbox"
             -
                 name: "title"
                 field:
