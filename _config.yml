@@ -30,7 +30,6 @@ JB:
         provider: false
 
 prose:
-    rooturl: "."
     siteurl: "http://lakaxita.org"
     media: "media"
     ignore:
