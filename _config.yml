@@ -51,11 +51,23 @@ prose:
     metadata:
         "":
             -
+                name: "layout"
+                field:
+                    label: "Layout"
+                    value: "page"
+                    element: "hidden"
+            -
                 name: "title"
                 field:
                     label: "Title"
                     element: "text"
         _posts:
+            -
+                name: "layout"
+                field:
+                    label: "Layout"
+                    value: "post"
+                    element: "hidden"
             -
                 name: "title"
                 field:
