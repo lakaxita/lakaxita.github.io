@@ -10,6 +10,7 @@ admin_url: http://prose.io/#lakaxita/lakaxita.github.io
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
+excerpt_separator: "\n"
 pygments: true
 markdown: redcarpet
 redcarpet:
@@ -51,11 +52,35 @@ prose:
     metadata:
         "":
             -
+                name: "layout"
+                field:
+                    label: "Layout"
+                    value: "page"
+                    element: "hidden"
+            -
+                name: "published"
+                field:
+                    label: "Published"
+                    value: true
+                    element: "checkbox"
+            -
                 name: "title"
                 field:
                     label: "Title"
                     element: "text"
         _posts:
+            -
+                name: "layout"
+                field:
+                    label: "Layout"
+                    value: "post"
+                    element: "hidden"
+            -
+                name: "published"
+                field:
+                    label: "Published"
+                    value: true
+                    element: "checkbox"
             -
                 name: "title"
                 field:

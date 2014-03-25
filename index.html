@@ -11,6 +11,7 @@ type: home
         {% endif %}
         <div class="user">{{ post.categories|join:" | " }}</div>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.excerpt }}
     </article>
     {% endfor %}
 </section>
