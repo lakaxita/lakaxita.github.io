@@ -34,7 +34,6 @@ prose:
     siteurl: "http://lakaxita.org"
     media: "media"
     ignore:
-        - .compass
         - _data
         - 404.html
         - static
@@ -49,7 +48,7 @@ prose:
         - sitemap.txt
         - .gitignore
         - .travis.yml
-        - _sass
+        - LICENSE.txt
     metadata:
         "":
             -
