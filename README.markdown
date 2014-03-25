@@ -3,6 +3,8 @@ title: Irakurri nazazu
 layout: page
 ---
 
+[![Build Status](https://travis-ci.org/lakaxita/lakaxita.github.io.svg?branch=master)](https://travis-ci.org/lakaxita/lakaxita.github.io)
+
 Kudeaketa
 =========
 
