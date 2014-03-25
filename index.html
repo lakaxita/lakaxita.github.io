@@ -7,7 +7,7 @@ type: home
     {% for post in site.posts %}
     <article class="{{ post.categories|join:" " }}">
         {% if post.date %}
-        <time>{{ post.date | date_to_string }}</time>
+        <time>{{ post.date | date:"%Y/%m/%d" }}</time>
         {% endif %}
         <div class="user">{{ post.categories|join:" | " }}</div>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
