@@ -4,6 +4,7 @@ author:
     name: Lakaxita
     email: lakaxita@gmail.com
     github: lakaxita
+timezone: "Europe/Paris"
 
 production_url: http://lakaxita.org/
 admin_url: http://prose.io/#lakaxita/lakaxita.github.io
