@@ -3,25 +3,48 @@ title: Irakurri nazazu
 layout: page
 ---
 
-[![Build Status](https://travis-ci.org/lakaxita/lakaxita.github.io.svg?branch=master)](https://travis-ci.org/lakaxita/lakaxita.github.io)
+Uneko egoera: [![Build Status](https://travis-ci.org/lakaxita/lakaxita.github.io.svg?branch=master)](https://travis-ci.org/lakaxita/lakaxita.github.io)
 
 Kudeaketa
 =========
 
-Webgunea kudeatzeko sartu [kudeaketa gunera][kudeaketa]. Bertan, behean eta
-eskubian dagoen botoian klikatu eta erabiltzaile eta pasahitzak sartu.
+Webgunea kudeatzeko sartu [kudeaketa gunera][kudeaketa] (webgunearen
+behekaldean ere aurkitu dezakezu). Edozein aldaketa egiteko saioa hasi behar
+duzu beraz behean eskubialdera dagoen botoian klikatu eta erabiltzaile eta
+pasahitzak sartu.
 
 Berri bat sortu
 ---------------
 
-Kudeaketa gunean aurkitzen den [_posts][posts] direktoriora sortu eta bertan
+Kudeaketa gunean aurkitzen den [_posts][posts] direktoriora sartu eta bertan
 fitxategi berri bat sortu.
+
+### Metadatuak
+
+Berriaren izenburua zehazteko, goiko aldean besterik gabe bete.
+
+Berriaren egilea (kolektiboa) zehaztea ere gomendagarria da. Horretarako,
+eskuinaldean goitik beherako hirugarren botoiean (metadatuena) klikatu eta
+egileagatik galdetzen duen karratutxoan egilea zehaztu.
+
+### Edukia
+
+Eduki bezala, testu soilaz gain, beste elementu bizpahiru ere sortu ditzakezu:
+
+- Bigarren eta hirugarren mailako izenburuak.
+- Estekak.
+- Irudiak (ikusi hurrengo atala).
+- Negrita eta kurtsibak.
+- Aipamenak.
+- Zerrenda zenbakitu eta zenbakitu gabeak.
+- Taulak.
+
+Laguntza eskaintzen duen ikonoan klikatu dezakezu gehiago jakiteko.
 
 ### Irudi bat gehitu
 
-Berri bat editatzen ari zeranean, irudiaren ikonoan klikatu eta bertara irudiak
-eraman edo irudiak igotzeko agertzen den estekan klik egin eta irudiak
-aukeratu.
+Irudiaren ikonoan klikatu eta bertara irudiak eraman edo irudiak igotzeko
+agertzen den estekan klik egin eta nahi dituzun irudiak aukeratu.
 
 
 Orri bat sortu
