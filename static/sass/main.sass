@@ -4,7 +4,7 @@
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
 $grey: scale-lightness(#000, 30%)
-$light: scale-lightness(#fff, -30%)
+$light: scale-lightness(#fff, -40%)
 $white: scale-lightness(#fff, -10%)
 
 $serif: Arvo
@@ -97,11 +97,6 @@ div#wrap
     margin: 0 !important
     max-width: 100% !important
     +grid-row($behavior: nest)
-    main
-        margin-top: 50px
-        +grid-column($columns:12)
-        @media #{$large-up} 
-            +grid-column($columns:9)
     aside
         margin-top: 50px
         +grid-column($columns:12)
@@ -118,6 +113,29 @@ div#wrap
                     padding: 0 .5em
                     a
                         color: $white
+    main
+        margin-top: 50px
+        +grid-column($columns:12)
+        @media #{$large-up} 
+            +grid-column($columns:9)
+        article
+            time, div.user
+                display: inline-block
+                color: $white
+                font-family: $serif
+                font-size: .8em
+                padding: .3em
+                font-weight: bold
+            time
+                background: $light
+            div.user
+                background: $grey
+            h1
+                font-size: 1.5em
+                font-weight: bold
+                margin: .5em 0
+                a
+                    color: $black
 
 div#wrap:before
     position: absolute
