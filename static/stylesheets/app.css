@@ -11289,3 +11289,23 @@ div#wrap:before {
   width: 80px;
   z-index: 10;
 }
+
+/* line 166, ../sass/main.sass */
+footer {
+  color: #e6e6e6;
+  text-align: right;
+  padding: 1em;
+}
+/* line 171, ../sass/main.sass */
+footer address a.lakaxita {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+/* line 174, ../sass/main.sass */
+footer a.admin {
+  color: #171717;
+}
+/* line 176, ../sass/main.sass */
+footer a.admin:hover {
+  color: #4d4d4d;
+}
