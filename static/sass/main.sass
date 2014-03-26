@@ -1,7 +1,7 @@
 @import foundation
 @import settings
 @import compass
-@import fonts.sass
+//mport font.sass
 
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
@@ -11,6 +11,7 @@ $white: scale-lightness(#fff, -10%)
 
 $serif: Arvo
 $sans: Lato
+$mono: Lekton
 
 h1, h2, h3, h4, h5, h6
     font-family: inherit
@@ -146,6 +147,9 @@ div#wrap
                 margin: .5em 0
                 a
                     color: $black
+            code
+                font-family: $mono
+                color: $grey
 
 div#wrap:before
     position: absolute
