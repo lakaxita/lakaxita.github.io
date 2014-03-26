@@ -13,7 +13,7 @@ $(document).ready(function() {
     filter_posts(category);
 
     $('nav a.posts').click(function(event) {
-        var category = $(this).text();
+        var category = $(this).attr('data-category');
         filter_posts(category);
     });
 });

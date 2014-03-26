@@ -49,7 +49,7 @@
                     <ul>
                         {% for cat in site.categories %}
                         {% assign category = cat|first %}
-                        <li><a class="posts" href="/#{{ category }}">{{ site.data.groups[category].name }}</a></li>
+                        <li><a class="posts" data-category="{{ category }}" href="/#{{ category }}">{{ site.data.groups[category].name }}</a></li>
                         {% endfor %}
                     </ul>
                 </nav>
