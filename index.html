@@ -9,7 +9,8 @@ type: home
         {% if post.date %}
         <time>{{ post.date | date:"%Y/%m/%d" }}</time>
         {% endif %}
-        <div class="user">{{ post.categories|join:" | " }}</div>
+        {% assign category = post.categories|first %}
+        <a class="user" href="{{ site.data.groups[category].name }}">{{ category }}</a>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         {{ post.excerpt }}
     </article>

@@ -47,8 +47,9 @@
             <aside>
                 <nav>
                     <ul>
-                        {% for category in site.categories %}
-                        <li><a class="posts" href="/#{{ category|first }}">{{ category|first }}</a></li>
+                        {% for cat in site.categories %}
+                        {% assign category = cat|first %}
+                        <li><a class="posts" href="/#{{ category }}">{{ site.data.groups[category].name }}</a></li>
                         {% endfor %}
                     </ul>
                 </nav>
