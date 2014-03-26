@@ -11086,15 +11086,25 @@ header ul#licenses {
     margin-left: 50% !important;
   }
 }
-/* line 69, ../sass/main.sass */
+@media only screen and (min-width: 64.063em) {
+  /* line 65, ../sass/main.sass */
+  header ul#licenses {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 16.66667%;
+    float: left;
+    margin-left: 58.33333% !important;
+  }
+}
+/* line 71, ../sass/main.sass */
 header ul#licenses li {
   list-style: none;
 }
 
-/* line 73, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 section#description {
   color: #e6e6e6;
-  margin: 0 0 2em 0 !important;
+  margin: 0 0 4em 0 !important;
   width: auto;
   margin-left: -0.9375rem;
   margin-right: -0.9375rem;
@@ -11112,7 +11122,7 @@ section#description:before, section#description:after {
 section#description:after {
   clear: both;
 }
-/* line 77, ../sass/main.sass */
+/* line 79, ../sass/main.sass */
 section#description div#description_text {
   text-align: justify;
   padding-left: 0.9375rem;
@@ -11121,29 +11131,39 @@ section#description div#description_text {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 77, ../sass/main.sass */
+  /* line 79, ../sass/main.sass */
   section#description div#description_text {
     text-align: right;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.33333%;
+    width: 41.66667%;
     float: left;
-    margin-left: 25% !important;
+    margin-left: 8.33333% !important;
   }
 }
-/* line 83, ../sass/main.sass */
+@media only screen and (min-width: 64.063em) {
+  /* line 79, ../sass/main.sass */
+  section#description div#description_text {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    float: left;
+    margin-left: 16.66667% !important;
+  }
+}
+/* line 87, ../sass/main.sass */
 section#description div#description_text h1 {
   font-weight: normal;
   margin-top: 0 !important;
   font-size: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 83, ../sass/main.sass */
+  /* line 87, ../sass/main.sass */
   section#description div#description_text h1 {
     font-size: 1.5em;
   }
 }
-/* line 89, ../sass/main.sass */
+/* line 93, ../sass/main.sass */
 section#description div#description_image {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11151,7 +11171,16 @@ section#description div#description_image {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 89, ../sass/main.sass */
+  /* line 93, ../sass/main.sass */
+  section#description div#description_image {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 93, ../sass/main.sass */
   section#description div#description_image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11160,7 +11189,7 @@ section#description div#description_image {
   }
 }
 
-/* line 94, ../sass/main.sass */
+/* line 100, ../sass/main.sass */
 div#wrap {
   background: #e6e6e6;
   color: #0a0a0a;
@@ -11183,31 +11212,16 @@ div#wrap:before, div#wrap:after {
 div#wrap:after {
   clear: both;
 }
-/* line 100, ../sass/main.sass */
-div#wrap main {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 100, ../sass/main.sass */
-  div#wrap main {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 75%;
-    float: left;
-  }
-}
-/* line 104, ../sass/main.sass */
+/* line 106, ../sass/main.sass */
 div#wrap aside {
+  margin-top: 50px;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
   float: left;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 104, ../sass/main.sass */
+@media only screen and (min-width: 64.063em) {
+  /* line 106, ../sass/main.sass */
   div#wrap aside {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11215,8 +11229,73 @@ div#wrap aside {
     float: left;
   }
 }
+/* line 111, ../sass/main.sass */
+div#wrap aside nav {
+  font-family: Arvo;
+  font-weight: bold;
+}
+/* line 114, ../sass/main.sass */
+div#wrap aside nav ul {
+  margin: 0;
+  list-style: none;
+}
+/* line 117, ../sass/main.sass */
+div#wrap aside nav ul li {
+  background: #4d4d4d;
+  width: 100%;
+  margin: 0.2em;
+  padding: 0 1em;
+}
+/* line 122, ../sass/main.sass */
+div#wrap aside nav ul li a {
+  color: #e6e6e6;
+}
+/* line 124, ../sass/main.sass */
+div#wrap main {
+  margin-top: 50px;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 124, ../sass/main.sass */
+  div#wrap main {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 75%;
+    float: left;
+  }
+}
+/* line 130, ../sass/main.sass */
+div#wrap main article time, div#wrap main article div.user {
+  display: inline-block;
+  color: #e6e6e6;
+  font-family: Arvo;
+  font-size: 0.8em;
+  padding: 0.3em;
+  font-weight: bold;
+}
+/* line 137, ../sass/main.sass */
+div#wrap main article time {
+  background: #4d4d4d;
+}
+/* line 139, ../sass/main.sass */
+div#wrap main article div.user {
+  background: #999999;
+}
+/* line 141, ../sass/main.sass */
+div#wrap main article h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+/* line 145, ../sass/main.sass */
+div#wrap main article h1 a {
+  color: #0a0a0a;
+}
 
-/* line 109, ../sass/main.sass */
+/* line 148, ../sass/main.sass */
 div#wrap:before {
   position: absolute;
   content: "";
