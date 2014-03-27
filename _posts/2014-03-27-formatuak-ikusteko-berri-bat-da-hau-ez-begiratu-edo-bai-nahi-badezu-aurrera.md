@@ -19,11 +19,11 @@ _etzana_
 
  > Hau quote bat da
  
- 1. item The <main> tag specifies the main content of a document.
- 2. item The content inside the <main> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+ 1. The tag specifies the main content of a document.
+ 2. The content inside the element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
  
- - item Defines a header for the document or a section
- - item <nav>   Defines navigation links in the document
- - item <section>   Defines a section in the document
- - item <main>  Defines the main content of a document
- - item <article>   Defines an article in the document
+ - Defines a header for the document or a section
+ - Defines navigation links in the document
+ - Defines a section in the document
+ - Defines the main content of a document
+ - Defines an article in the document
