@@ -11199,7 +11199,7 @@ div#wrap main article a.author {
 }
 /* line 125, ../sass/main.sass */
 div#wrap main article h1 {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: bold;
   margin: 0.5rem 0 1rem;
   color: #0a0a0a;
@@ -11229,7 +11229,12 @@ div#wrap main article div.prev-next {
 /* line 142, ../sass/main.sass */
 div#wrap:before {
   position: absolute;
-  content: "";
+  content: "o";
+  font-family: Lakaxita;
+  text-align: center;
+  padding: 17px;
+  font-size: 50px;
+  color: #e6e6e6;
   pointer-events: none;
   background: #171717;
   border-radius: 50%;
@@ -11240,7 +11245,7 @@ div#wrap:before {
   z-index: 10;
 }
 
-/* line 154, ../sass/main.sass */
+/* line 159, ../sass/main.sass */
 footer {
   color: #e6e6e6;
   padding: 1em;
@@ -11254,7 +11259,7 @@ footer {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 159, ../sass/main.sass */
+/* line 164, ../sass/main.sass */
 footer ul#licenses {
   margin: 0;
   padding-left: 0.9375rem;
@@ -11263,7 +11268,7 @@ footer ul#licenses {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 159, ../sass/main.sass */
+  /* line 164, ../sass/main.sass */
   footer ul#licenses {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11271,16 +11276,16 @@ footer ul#licenses {
     float: left;
   }
 }
-/* line 164, ../sass/main.sass */
+/* line 169, ../sass/main.sass */
 footer ul#licenses li {
   display: inline-block;
   list-style: none;
 }
-/* line 167, ../sass/main.sass */
+/* line 172, ../sass/main.sass */
 footer ul#licenses li a {
   font-size: 3em;
 }
-/* line 169, ../sass/main.sass */
+/* line 174, ../sass/main.sass */
 footer div#footer_details {
   text-align: right;
   padding-left: 0.9375rem;
@@ -11289,7 +11294,7 @@ footer div#footer_details {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 169, ../sass/main.sass */
+  /* line 174, ../sass/main.sass */
   footer div#footer_details {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11297,16 +11302,16 @@ footer div#footer_details {
     float: left;
   }
 }
-/* line 175, ../sass/main.sass */
+/* line 180, ../sass/main.sass */
 footer div#footer_details address a.lakaxita {
   font-weight: bold;
   font-size: 1.3em;
 }
-/* line 178, ../sass/main.sass */
+/* line 183, ../sass/main.sass */
 footer div#footer_details a.admin {
   color: #171717;
 }
-/* line 180, ../sass/main.sass */
+/* line 185, ../sass/main.sass */
 footer div#footer_details a.admin:hover {
   color: #4d4d4d;
 }

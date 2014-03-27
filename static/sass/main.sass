@@ -1,7 +1,7 @@
 @import foundation
 @import settings
 @import compass
-@import fonts
+//@import fonts
 
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
@@ -123,7 +123,7 @@ div#wrap
             a.author
                 background: $grey
             h1
-                font-size: 1.5rem
+                font-size: 1.45rem
                 font-weight: bold
                 margin: .5rem 0 1rem
                 color: $black
@@ -141,7 +141,12 @@ div#wrap
 
 div#wrap:before
     position: absolute
-    content: ''
+    content: 'o'
+    font-family: $icon
+    text-align: center
+    padding: 17px
+    font-size: 50px
+    color: $white
     pointer-events: none
     background: $dark
     border-radius: 50%
