@@ -1,5 +1,7 @@
 @import foundation
 @import settings
+@import compass
+//mport font.sass
 
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
@@ -9,13 +11,17 @@ $white: scale-lightness(#fff, -10%)
 
 $serif: Arvo
 $sans: Lato
+$mono: Lekton
+$icon: Lakaxita
 
 h1, h2, h3, h4, h5, h6
     font-family: inherit
     color: inherit
 h1, h2
     font-family: $serif
-
+.icon
+    font-family: $icon
+    color: $white
 body
     background: $dark
     font-family: $sans
@@ -27,50 +33,26 @@ header
     max-width: 100% !important
     margin: 0 0 2em 0 !important
     background: $black
-    height: 70px
-    +grid-row($behavior: nest)
-    @media #{$medium-up}
-        background: none
-    h1#title, ul#licenses, a#logo
-        background: $black
-        padding: .4em !important
-        margin: 0 !important
-        height: 100%
+    padding: .4em
+    +grid-row()
+    h1#title
+        margin: -40px 0 0 0
+        font-size: 1.7em
+        +grid-column($columns:2)
         a
             color: $white
-        a:first-child
-            display: none
-            @media #{$medium-up}
-                display: inline-block
-    h1#title
-        display: none
-        @media #{$medium-up}
-            +grid-column($columns:2)
-            font-size: 1.5em
-            display: block
-            font-weight: normal
-        @media #{$large-up}
-            font-size: 1.7em
-    a#logo
-        text-align: left
-        +grid-column($columns:7)
-        @media #{$medium-up}
-            +grid-column($columns:2)
-            text-align: center
-        @media #{$large-up}
-            +grid-column($columns:1)
-        img
-            height: 80%
-        
-    ul#licenses
-        +grid-column($columns:5)
-        @media #{$medium-up}
-            +grid-column($columns:2, $offset:6)
-        @media #{$large-up}
-            +grid-column($columns:2, $offset:7)
+            vertical-align: baseline
+        a#logo
+            font-size: 3em
+            margin-left: .2em
+    ul#social            
+        text-align: right
+        +grid-column($columns:2, $offset:8)
         li
+            display: inline-block
             list-style: none
-
+            a
+                font-size: 2em
         
 section#description
     color: $white
@@ -102,13 +84,15 @@ div#wrap
     color: $black
     margin: 0 !important
     max-width: 100% !important
-    +grid-row($behavior: nest)
+    +grid-row()
     aside
         margin-top: 50px
         +grid-column($columns:12)
         @media #{$large-up} 
             +grid-column($columns:3)
         nav
+            font-family: $serif
+            font-weight: bold
             ul
                 margin: 0
                 list-style: none
@@ -116,7 +100,7 @@ div#wrap
                     background: $grey
                     width: 100%
                     margin: .2em
-                    padding: 0 .5em
+                    padding: 0 1em
                     a
                         color: $white
     main
@@ -142,6 +126,9 @@ div#wrap
                 margin: .5em 0
                 a
                     color: $black
+            code
+                font-family: $mono
+                color: $grey
 
 div#wrap:before
     position: absolute
@@ -154,3 +141,37 @@ div#wrap:before
     transform: translate(-50%,-50%)
     width: 80px
     z-index: 10
+
+footer
+    color: $white
+    padding: 1em
+    max-width: 100% !important
+    +grid-row()
+    div#licenses
+        +grid-column($columns:12)
+        @media #{$medium-up} 
+            +grid-column($columns:6)
+        h1
+            font-size: 1.2em
+            color: $light
+        ul
+            margin: 0
+            li
+                display: inline-block
+                list-style: none
+                a
+                    font-size: 3em
+    div#footer_details
+        text-align: right
+        +grid-column($columns:12)
+        @media #{$medium-up} 
+            +grid-column($columns:6)
+        address
+            a.lakaxita
+                font-weight: bold
+                font-size: 1.3em
+        a.admin
+            color: $dark
+        a.admin:hover
+            color: $grey
+            
