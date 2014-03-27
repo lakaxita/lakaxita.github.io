@@ -1,7 +1,7 @@
 @import foundation
 @import settings
 @import compass
-//mport font.sass
+@import fonts
 
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
@@ -45,7 +45,7 @@ header
         a#logo
             font-size: 3em
             margin-left: .2em
-    ul#social            
+    ul#social
         text-align: right
         +grid-column($columns:2, $offset:8)
         li
@@ -53,7 +53,7 @@ header
             list-style: none
             a
                 font-size: 2em
-        
+
 section#description
     color: $white
     margin: 0 0 4em 0 !important
@@ -88,7 +88,7 @@ div#wrap
     aside
         margin-top: 50px
         +grid-column($columns:12)
-        @media #{$large-up} 
+        @media #{$large-up}
             +grid-column($columns:3)
         nav
             font-family: $serif
@@ -106,7 +106,7 @@ div#wrap
     main
         margin-top: 50px
         +grid-column($columns:12)
-        @media #{$large-up} 
+        @media #{$large-up}
             +grid-column($columns:9)
         article
             time, div.user
@@ -149,7 +149,7 @@ footer
     +grid-row()
     div#licenses
         +grid-column($columns:12)
-        @media #{$medium-up} 
+        @media #{$medium-up}
             +grid-column($columns:6)
         h1
             font-size: 1.2em
@@ -164,7 +164,7 @@ footer
     div#footer_details
         text-align: right
         +grid-column($columns:12)
-        @media #{$medium-up} 
+        @media #{$medium-up}
             +grid-column($columns:6)
         address
             a.lakaxita
@@ -174,4 +174,4 @@ footer
             color: $dark
         a.admin:hover
             color: $grey
-            
+
