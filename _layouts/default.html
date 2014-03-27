@@ -10,10 +10,7 @@
 
         <link rel="shortcut icon" href="{{ ASSET_PATH }}favicon.ico" />
         <link rel="start" href="{{ HOME_PATH }}" />
-        {% if page.feed %}
-        <link rel="alternate" type="application/atom+xml"
-         href="{{ page.feed }}" title="RSS feed" />
-        {% endif %}
+        <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="{{ site.title }}" />
 
         <link href="{{ ASSET_PATH }}stylesheets/app.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
         <script src="{{ ASSET_PATH }}javascripts/custom.modernizr.js"></script>
@@ -28,7 +25,7 @@
                 <li><a class="icon" href="https://github.com/orgs/lakaxita">g</a></li>
                 <li><a class="icon" href="https://secure.flickr.com/photos/61539616@N05/">f</a></li>
                 <li><a class="icon" href="https://eu-es.facebook.com/lakaxitagaztetxea">t</a></li>
-                <li><a class="icon" href="/">r</a></li>
+                <li><a class="icon" href="/feed.xml">r</a></li>
             </ul>
         </header>
         {% if page.type == 'home' %}
