@@ -10960,22 +10960,20 @@ h1, h2 {
 /* line 22, ../sass/main.sass */
 .icon {
   font-family: Lakaxita;
-  color: #e6e6e6;
 }
 
-/* line 25, ../sass/main.sass */
+/* line 24, ../sass/main.sass */
 body {
   background: #171717;
   font-family: Lato;
   position: static;
 }
 
-/* line 30, ../sass/main.sass */
+/* line 29, ../sass/main.sass */
 header {
-  color: #e6e6e6;
   font-family: Arvo;
   max-width: 100% !important;
-  margin: 0 0 2em 0 !important;
+  margin: 0 !important;
   background: #0a0a0a;
   padding: 0.4em;
   width: 100%;
@@ -10987,8 +10985,9 @@ header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 38, ../sass/main.sass */
+/* line 36, ../sass/main.sass */
 header h1#title {
+  color: #e6e6e6;
   margin: -50px 0 0 0;
   font-size: 1.7em;
   padding-left: 0.9375rem;
@@ -10996,17 +10995,17 @@ header h1#title {
   width: 16.66667%;
   float: left;
 }
-/* line 42, ../sass/main.sass */
+/* line 41, ../sass/main.sass */
 header h1#title a {
   color: #e6e6e6;
   vertical-align: baseline;
 }
-/* line 45, ../sass/main.sass */
+/* line 44, ../sass/main.sass */
 header h1#title a#logo {
   font-size: 3em;
   margin-left: 0.2em;
 }
-/* line 48, ../sass/main.sass */
+/* line 47, ../sass/main.sass */
 header ul#social {
   text-align: right;
   margin: 0.5rem 0;
@@ -11016,14 +11015,15 @@ header ul#social {
   float: left;
   margin-left: 66.66667% !important;
 }
-/* line 52, ../sass/main.sass */
+/* line 51, ../sass/main.sass */
 header ul#social li {
   display: inline-block;
   list-style: none;
 }
-/* line 55, ../sass/main.sass */
+/* line 54, ../sass/main.sass */
 header ul#social li a {
   font-size: 2em;
+  color: #999999;
 }
 
 /* line 58, ../sass/main.sass */
@@ -11261,6 +11261,7 @@ footer {
 }
 /* line 164, ../sass/main.sass */
 footer ul#licenses {
+  color: #e6e6e6;
   margin: 0;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11276,16 +11277,16 @@ footer ul#licenses {
     float: left;
   }
 }
-/* line 169, ../sass/main.sass */
+/* line 170, ../sass/main.sass */
 footer ul#licenses li {
   display: inline-block;
   list-style: none;
 }
-/* line 172, ../sass/main.sass */
+/* line 173, ../sass/main.sass */
 footer ul#licenses li a {
   font-size: 3em;
 }
-/* line 174, ../sass/main.sass */
+/* line 175, ../sass/main.sass */
 footer div#footer_details {
   text-align: right;
   padding-left: 0.9375rem;
@@ -11294,7 +11295,7 @@ footer div#footer_details {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 174, ../sass/main.sass */
+  /* line 175, ../sass/main.sass */
   footer div#footer_details {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11302,16 +11303,16 @@ footer div#footer_details {
     float: left;
   }
 }
-/* line 180, ../sass/main.sass */
+/* line 181, ../sass/main.sass */
 footer div#footer_details address a.lakaxita {
   font-weight: bold;
   font-size: 1.3em;
 }
-/* line 183, ../sass/main.sass */
+/* line 184, ../sass/main.sass */
 footer div#footer_details a.admin {
   color: #171717;
 }
-/* line 185, ../sass/main.sass */
+/* line 186, ../sass/main.sass */
 footer div#footer_details a.admin:hover {
   color: #4d4d4d;
 }

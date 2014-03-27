@@ -21,21 +21,20 @@ h1, h2
     font-family: $serif
 .icon
     font-family: $icon
-    color: $white
 body
     background: $dark
     font-family: $sans
     position: static
 
 header
-    color: $white
     font-family: $serif
     max-width: 100% !important
-    margin: 0 0 2em 0 !important
+    margin: 0 !important
     background: $black
     padding: .4em
     +grid-row()
     h1#title
+        color: $white
         margin: -50px 0 0 0
         font-size: 1.7em
         +grid-column($columns:2)
@@ -54,6 +53,7 @@ header
             list-style: none
             a
                 font-size: 2em
+                color: $light
 
 section#description
     color: $white
@@ -162,6 +162,7 @@ footer
     max-width: 100% !important
     +grid-row()
     ul#licenses
+        color: $white
         margin: 0
         +grid-column($columns:12)
         @media #{$medium-up}
