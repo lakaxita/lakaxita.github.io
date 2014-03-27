@@ -3,15 +3,13 @@ layout: default
 ---
 {% include JB/setup %}
 <article>
-    <h2 class="title" >{{ page.title }}</h2>
+    <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a>
+    <time>{{ page.date | date:"%Y/%m/%d" }}</time>
+    <p class="location">{{ page.location }}</p>
+    <h1 class="title" >{{ page.title }}</h2>
 
     {{ content }}
 
-    <address class="signature">
-        <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a>
-        <span class="date">{{ page.date | date:"%Y/%m/%d" }}</span>
-        <span class="location">{{ page.location }}</span>
-    </address>
 
     <div class="prev-next">
         {% if page.next %}

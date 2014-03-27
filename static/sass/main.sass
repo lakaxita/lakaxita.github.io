@@ -1,7 +1,7 @@
 @import foundation
 @import settings
 @import compass
-@import fonts
+//@import fonts
 
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
@@ -104,28 +104,34 @@ div#wrap
                     a
                         color: $white
     main
-        margin-top: 50px
+        margin: 50px 0
         +grid-column($columns:12)
         @media #{$large-up}
             +grid-column($columns:9)
         article
-            time, div.user
+            margin: 0 2rem
+            time, a.author, p.location
                 display: inline-block
                 color: $white
                 font-family: $serif
                 font-size: .8em
                 padding: .3em
                 font-weight: bold
-            time
+            time, p.location
                 background: $grey
-            div.user
+            a.author
                 background: $light
             h1
                 font-size: 1.5em
                 font-weight: bold
                 margin: .5em 0
+                color: $black
                 a
                     color: $black
+            h2
+                font-size: 1.3em
+            h3
+                font-size: 1.1em
             code
                 font-family: $mono
                 color: $grey
@@ -147,16 +153,11 @@ footer
     padding: 1em
     max-width: 100% !important
     +grid-row()
-    div#licenses
+    ul#licenses
+        margin: 0
         +grid-column($columns:12)
         @media #{$medium-up}
             +grid-column($columns:6)
-        h1
-            font-size: 1.2em
-            color: $light
-            margin-top: 0
-        ul
-            margin: 0
             li
                 display: inline-block
                 list-style: none
