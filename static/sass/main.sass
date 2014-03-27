@@ -21,6 +21,7 @@ h1, h2
     font-family: $serif
 .icon
     font-family: $icon
+    color: $white
 body
     background: $dark
     font-family: $sans
@@ -52,12 +53,6 @@ header
             list-style: none
             a
                 font-size: 2em
-                color: $white
-        
-            
-            
-        
-
         
 section#description
     color: $white
@@ -89,7 +84,7 @@ div#wrap
     color: $black
     margin: 0 !important
     max-width: 100% !important
-    +grid-row($behavior: nest)
+    +grid-row()
     aside
         margin-top: 50px
         +grid-column($columns:12)
@@ -149,17 +144,34 @@ div#wrap:before
 
 footer
     color: $white
-    text-align: right
     padding: 1em
-    ul#licenses
-        li
-            list-style: none
-    address
-        a.lakaxita
-            font-weight: bold
-            font-size: 1.3em
-    a.admin
-        color: $dark
-    a.admin:hover
-        color: $grey
-        
+    max-width: 100% !important
+    +grid-row()
+    div#licenses
+        +grid-column($columns:12)
+        @media #{$medium-up} 
+            +grid-column($columns:6)
+        h1
+            font-size: 1.2em
+            color: $light
+        ul
+            margin: 0
+            li
+                display: inline-block
+                list-style: none
+                a
+                    font-size: 3em
+    div#footer_details
+        text-align: right
+        +grid-column($columns:12)
+        @media #{$medium-up} 
+            +grid-column($columns:6)
+        address
+            a.lakaxita
+                font-weight: bold
+                font-size: 1.3em
+        a.admin
+            color: $dark
+        a.admin:hover
+            color: $grey
+            
