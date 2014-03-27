@@ -1,15 +1,23 @@
+# General
 title: Lakaxita
 tagline: Irungo Lakaxita Gaztetxea
+image: images/lakaxita.png
+description: >
+    Lakaxita pertsona eta kolektibo ezberdinek autogestionatzen duten gune
+    okupatua da. Gure inguruko gabezia sozial eta kulturaletaz arduratzen gara
+    eta haiei aurre egitea da gure erronka nagusia.
 author:
     name: Lakaxita
     email: lakaxita@gmail.com
     github: lakaxita
 timezone: "Europe/Paris"
 
+# URLs
 production_url: http://lakaxita.org/
 admin_url: http://prose.io/#lakaxita/lakaxita.github.io
 permalink: /:categories/:year/:month/:day/:title
 
+# Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
 excerpt_separator: "\n"
 pygments: true
