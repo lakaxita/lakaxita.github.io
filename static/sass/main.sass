@@ -57,7 +57,7 @@ header
 
 section#description
     color: $white
-    margin: 0 0 4em 0 !important
+    margin: 3em 0 !important
     +grid-row($behavior: nest)
     div#description_text
         text-align: justify
@@ -110,22 +110,22 @@ div#wrap
         @media #{$large-up}
             +grid-column($columns:9)
         article
-            margin: 0 2rem
-            time, a.author, p.location
+            margin: 0 2rem 2rem 2rem
+            time, a.author
                 display: inline-block
                 color: $white
                 font-family: $serif
                 font-size: .8em
                 padding: .3em
                 font-weight: bold
-            time, p.location
+            time
                 background: $light
             a.author
                 background: $grey
             h1
-                font-size: 1.5em
+                font-size: 1.5rem
                 font-weight: bold
-                margin: .5em 0
+                margin: .5rem 0 1rem
                 color: $black
                 a
                     color: $black
@@ -136,6 +136,8 @@ div#wrap
             code
                 font-family: $mono
                 color: $grey
+            div.prev-next
+                margin: 2rem
 
 div#wrap:before
     position: absolute

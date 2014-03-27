@@ -11029,7 +11029,7 @@ header ul#social li a {
 /* line 58, ../sass/main.sass */
 section#description {
   color: #e6e6e6;
-  margin: 0 0 4em 0 !important;
+  margin: 3em 0 !important;
   width: auto;
   margin-left: -0.9375rem;
   margin-right: -0.9375rem;
@@ -11178,10 +11178,10 @@ div#wrap main {
 }
 /* line 112, ../sass/main.sass */
 div#wrap main article {
-  margin: 0 2rem;
+  margin: 0 2rem 2rem 2rem;
 }
 /* line 114, ../sass/main.sass */
-div#wrap main article time, div#wrap main article a.author, div#wrap main article p.location {
+div#wrap main article time, div#wrap main article a.author {
   display: inline-block;
   color: #e6e6e6;
   font-family: Arvo;
@@ -11190,7 +11190,7 @@ div#wrap main article time, div#wrap main article a.author, div#wrap main articl
   font-weight: bold;
 }
 /* line 121, ../sass/main.sass */
-div#wrap main article time, div#wrap main article p.location {
+div#wrap main article time {
   background: #999999;
 }
 /* line 123, ../sass/main.sass */
@@ -11199,9 +11199,9 @@ div#wrap main article a.author {
 }
 /* line 125, ../sass/main.sass */
 div#wrap main article h1 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin: 0.5em 0;
+  margin: 0.5rem 0 1rem;
   color: #0a0a0a;
 }
 /* line 130, ../sass/main.sass */
@@ -11221,8 +11221,12 @@ div#wrap main article code {
   font-family: Lekton;
   color: #4d4d4d;
 }
+/* line 139, ../sass/main.sass */
+div#wrap main article div.prev-next {
+  margin: 2rem;
+}
 
-/* line 140, ../sass/main.sass */
+/* line 142, ../sass/main.sass */
 div#wrap:before {
   position: absolute;
   content: "";
@@ -11236,7 +11240,7 @@ div#wrap:before {
   z-index: 10;
 }
 
-/* line 152, ../sass/main.sass */
+/* line 154, ../sass/main.sass */
 footer {
   color: #e6e6e6;
   padding: 1em;
@@ -11250,7 +11254,7 @@ footer {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 157, ../sass/main.sass */
+/* line 159, ../sass/main.sass */
 footer ul#licenses {
   margin: 0;
   padding-left: 0.9375rem;
@@ -11259,7 +11263,7 @@ footer ul#licenses {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 157, ../sass/main.sass */
+  /* line 159, ../sass/main.sass */
   footer ul#licenses {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11267,16 +11271,16 @@ footer ul#licenses {
     float: left;
   }
 }
-/* line 162, ../sass/main.sass */
+/* line 164, ../sass/main.sass */
 footer ul#licenses li {
   display: inline-block;
   list-style: none;
 }
-/* line 165, ../sass/main.sass */
+/* line 167, ../sass/main.sass */
 footer ul#licenses li a {
   font-size: 3em;
 }
-/* line 167, ../sass/main.sass */
+/* line 169, ../sass/main.sass */
 footer div#footer_details {
   text-align: right;
   padding-left: 0.9375rem;
@@ -11285,7 +11289,7 @@ footer div#footer_details {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 167, ../sass/main.sass */
+  /* line 169, ../sass/main.sass */
   footer div#footer_details {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11293,16 +11297,16 @@ footer div#footer_details {
     float: left;
   }
 }
-/* line 173, ../sass/main.sass */
+/* line 175, ../sass/main.sass */
 footer div#footer_details address a.lakaxita {
   font-weight: bold;
   font-size: 1.3em;
 }
-/* line 176, ../sass/main.sass */
+/* line 178, ../sass/main.sass */
 footer div#footer_details a.admin {
   color: #171717;
 }
-/* line 178, ../sass/main.sass */
+/* line 180, ../sass/main.sass */
 footer div#footer_details a.admin:hover {
   color: #4d4d4d;
 }

@@ -6,7 +6,6 @@ layout: default
     {% assign category = page.categories|first %}
     <a class="author" href="/#{{ category }}">{{ site.data.groups[category].name }}</a>
     <time>{{ page.date | date:"%Y/%m/%d" }}</time>
-    <p class="location">{{ page.location }}</p>
     <h1 class="title" >{{ page.title }}</h2>
 
     {{ content }}
