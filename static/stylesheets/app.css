@@ -10946,114 +10946,6 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-@font-face {
-  font-family: "Arvo";
-  src: url("/static/fonts/arvo/arvo-regular-webfont.eot");
-  src: url("/static/fonts/arvo/arvo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-regular-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-regular-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-regular-webfont.svg#Arvo") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Arvo";
-  src: url("/static/fonts/arvo/arvo-bold-webfont.eot");
-  src: url("/static/fonts/arvo/arvo-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-bold-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-bold-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-bold-webfont.svg#Arvo") format("svg");
-  font-weight: "bold";
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Arvo";
-  src: url("/static/fonts/arvo/arvo-italic-webfont.eot");
-  src: url("/static/fonts/arvo/arvo-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-italic-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-italic-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-italic-webfont.svg#Arvo") format("svg");
-  font-weight: "normal";
-  font-style: "italic";
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Arvo";
-  src: url("/static/fonts/arvo/arvo-bolditalic-webfont.eot");
-  src: url("/static/fonts/arvo/arvo-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-bolditalic-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-bolditalic-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-bolditalic-webfont.svg#Arvo") format("svg");
-  font-weight: "bold";
-  font-style: "italic";
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("/static/fonts/lato/lato-reg-webfont.eot");
-  src: url("/static/fonts/lato/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-reg-webfont.woff") format("woff"), url("/static/fonts/lato/lato-reg-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-reg-webfont.svg#Lato") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("/static/fonts/lato/lato-bol-webfont.eot");
-  src: url("/static/fonts/lato/lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-bol-webfont.woff") format("woff"), url("/static/fonts/lato/lato-bol-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-bol-webfont.svg#Lato") format("svg");
-  font-weight: "bold";
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("/static/fonts/lato/lato-regita-webfont.eot");
-  src: url("/static/fonts/lato/lato-regita-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-regita-webfont.woff") format("woff"), url("/static/fonts/lato/lato-regita-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-regita-webfont.svg#Lato") format("svg");
-  font-weight: "normal";
-  font-style: "italic";
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url("/static/fonts/lato/lato-bolita-webfont.eot");
-  src: url("/static/fonts/lato/lato-bolita-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-bolita-webfont.woff") format("woff"), url("/static/fonts/lato/lato-bolita-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-bolita-webfont.svg#Lato") format("svg");
-  font-weight: "bold";
-  font-style: "italic";
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lekton";
-  src: url("/static/fonts/lekton/lekton-regular-webfont.eot");
-  src: url("/static/fonts/lekton/lekton-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lekton/lekton-regular-webfont.woff") format("woff"), url("/static/fonts/lekton/lekton-regular-webfont.ttf") format("truetype"), url("/static/fonts/lekton/lekton-regular-webfont.svg#Lekton") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lekton";
-  src: url("/static/fonts/lekton/lekton-bold-webfont.eot");
-  src: url("/static/fonts/lekton/lekton-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lekton/lekton-bold-webfont.woff") format("woff"), url("/static/fonts/lekton/lekton-bold-webfont.ttf") format("truetype"), url("/static/fonts/lekton/lekton-bold-webfont.svg#Lekton") format("svg");
-  font-weight: "bold";
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lekton";
-  src: url("/static/fonts/lekton/lekton-italic-webfont.eot");
-  src: url("/static/fonts/lekton/lekton-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lekton/lekton-italic-webfont.woff") format("woff"), url("/static/fonts/lekton/lekton-italic-webfont.ttf") format("truetype"), url("/static/fonts/lekton/lekton-italic-webfont.svg#Lekton") format("svg");
-  font-weight: "normal";
-  font-style: "italic";
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "Lakaxita";
-  src: url("/static/fonts/lakaxita/lakaxita-webfont.eot");
-  src: url("/static/fonts/lakaxita/lakaxita-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lakaxita/lakaxita-webfont.woff") format("woff"), url("/static/fonts/lakaxita/lakaxita-webfont.ttf") format("truetype"), url("/static/fonts/lakaxita/lakaxita-webfont.svg#Lakaxita") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-
 /* line 17, ../sass/main.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
@@ -11298,11 +11190,11 @@ div#wrap main article time, div#wrap main article a.author, div#wrap main articl
 }
 /* line 120, ../sass/main.sass */
 div#wrap main article time, div#wrap main article p.location {
-  background: #4d4d4d;
+  background: #999999;
 }
 /* line 122, ../sass/main.sass */
 div#wrap main article a.author {
-  background: #999999;
+  background: #4d4d4d;
 }
 /* line 124, ../sass/main.sass */
 div#wrap main article h1 {
@@ -11375,25 +11267,15 @@ footer ul#licenses {
   }
 }
 /* line 161, ../sass/main.sass */
-footer ul#licenses h1 {
-  font-size: 1.2em;
-  color: #999999;
-  margin-top: 0;
-}
-/* line 165, ../sass/main.sass */
-footer ul#licenses ul {
-  margin: 0;
-}
-/* line 167, ../sass/main.sass */
-footer ul#licenses ul li {
+footer ul#licenses li {
   display: inline-block;
   list-style: none;
 }
-/* line 170, ../sass/main.sass */
-footer ul#licenses ul li a {
+/* line 164, ../sass/main.sass */
+footer ul#licenses li a {
   font-size: 3em;
 }
-/* line 172, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 footer div#footer_details {
   text-align: right;
   padding-left: 0.9375rem;
@@ -11402,7 +11284,7 @@ footer div#footer_details {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 172, ../sass/main.sass */
+  /* line 166, ../sass/main.sass */
   footer div#footer_details {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -11410,16 +11292,16 @@ footer div#footer_details {
     float: left;
   }
 }
-/* line 178, ../sass/main.sass */
+/* line 172, ../sass/main.sass */
 footer div#footer_details address a.lakaxita {
   font-weight: bold;
   font-size: 1.3em;
 }
-/* line 181, ../sass/main.sass */
+/* line 175, ../sass/main.sass */
 footer div#footer_details a.admin {
   color: #171717;
 }
-/* line 183, ../sass/main.sass */
+/* line 177, ../sass/main.sass */
 footer div#footer_details a.admin:hover {
   color: #4d4d4d;
 }

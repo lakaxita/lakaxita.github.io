@@ -1,7 +1,7 @@
 @import foundation
 @import settings
 @import compass
-@import fonts
+//@import fonts
 
 $black: scale-lightness(#000, 4%)
 $dark: scale-lightness(#000, 9%)
@@ -118,9 +118,9 @@ div#wrap
                 padding: .3em
                 font-weight: bold
             time, p.location
-                background: $grey
-            a.author
                 background: $light
+            a.author
+                background: $grey
             h1
                 font-size: 1.5em
                 font-weight: bold
@@ -158,17 +158,11 @@ footer
         +grid-column($columns:12)
         @media #{$medium-up}
             +grid-column($columns:6)
-        h1
-            font-size: 1.2em
-            color: $light
-            margin-top: 0
-        ul
-            margin: 0
-            li
-                display: inline-block
-                list-style: none
-                a
-                    font-size: 3em
+        li
+            display: inline-block
+            list-style: none
+            a
+                font-size: 3em
     div#footer_details
         text-align: right
         +grid-column($columns:12)
