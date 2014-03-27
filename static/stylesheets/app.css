@@ -10948,84 +10948,110 @@ th.hide-for-touch {
 
 @font-face {
   font-family: "Arvo";
-  src: url(/static/fonts/arvo/arvo-regular-webfont.eot);
-  src: url(/static/fonts/arvo/arvo-regular-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/arvo/arvo-regular-webfont.woff", "/static/fonts/arvo/arvo-regular-webfont.ttf", "/static/fonts/arvo/arvo-regular-webfont.svg");
+  src: url("/static/fonts/arvo/arvo-regular-webfont.eot");
+  src: url("/static/fonts/arvo/arvo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-regular-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-regular-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-regular-webfont.svg#Arvo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Arvo";
-  src: url(/static/fonts/arvo/arvo-bold-webfont.eot);
-  src: url(/static/fonts/arvo/arvo-bold-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/arvo/arvo-bold-webfont.woff", "/static/fonts/arvo/arvo-bold-webfont.ttf", "/static/fonts/arvo/arvo-bold-webfont.svg");
-  font-weight: bold;
+  src: url("/static/fonts/arvo/arvo-bold-webfont.eot");
+  src: url("/static/fonts/arvo/arvo-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-bold-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-bold-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-bold-webfont.svg#Arvo") format("svg");
+  font-weight: "bold";
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Arvo";
-  src: url(/static/fonts/arvo/arvo-italic-webfont.eot);
-  src: url(/static/fonts/arvo/arvo-italic-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/arvo/arvo-italic-webfont.woff", "/static/fonts/arvo/arvo-italic-webfont.ttf", "/static/fonts/arvo/arvo-italic-webfont.svg");
-  font-weight: italic;
+  src: url("/static/fonts/arvo/arvo-italic-webfont.eot");
+  src: url("/static/fonts/arvo/arvo-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-italic-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-italic-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-italic-webfont.svg#Arvo") format("svg");
+  font-weight: "normal";
+  font-style: "italic";
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Arvo";
-  src: url(/static/fonts/arvo/arvo-bolditalic-webfont.eot);
-  src: url(/static/fonts/arvo/arvo-bolditalic-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/arvo/arvo-bolditalic-webfont.woff", "/static/fonts/arvo/arvo-bolditalic-webfont.ttf", "/static/fonts/arvo/arvo-bolditalic-webfont.svg");
-  font-weight: bold;
-  font-style: italic;
+  src: url("/static/fonts/arvo/arvo-bolditalic-webfont.eot");
+  src: url("/static/fonts/arvo/arvo-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/arvo/arvo-bolditalic-webfont.woff") format("woff"), url("/static/fonts/arvo/arvo-bolditalic-webfont.ttf") format("truetype"), url("/static/fonts/arvo/arvo-bolditalic-webfont.svg#Arvo") format("svg");
+  font-weight: "bold";
+  font-style: "italic";
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url(/static/fonts/lato/lato-reg-webfont.eot);
-  src: url(/static/fonts/lato/lato-reg-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lato/lato-reg-webfont.woff", "/static/fonts/lato/lato-reg-webfont.ttf", "/static/fonts/lato/lato-reg-webfont.svg");
+  src: url("/static/fonts/lato/lato-reg-webfont.eot");
+  src: url("/static/fonts/lato/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-reg-webfont.woff") format("woff"), url("/static/fonts/lato/lato-reg-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-reg-webfont.svg#Lato") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url(/static/fonts/lato/lato-bol-webfont.eot);
-  src: url(/static/fonts/lato/lato-bol-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lato/lato-bol-webfont.woff", "/static/fonts/lato/lato-bol-webfont.ttf", "/static/fonts/lato/lato-bol-webfont.svg");
-  font-weight: bold;
+  src: url("/static/fonts/lato/lato-bol-webfont.eot");
+  src: url("/static/fonts/lato/lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-bol-webfont.woff") format("woff"), url("/static/fonts/lato/lato-bol-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-bol-webfont.svg#Lato") format("svg");
+  font-weight: "bold";
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url(/static/fonts/lato/lato-regita-webfont.eot);
-  src: url(/static/fonts/lato/lato-regita-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lato/lato-regita-webfont.woff", "/static/fonts/lato/lato-regita-webfont.ttf", "/static/fonts/lato/lato-regita-webfont.svg");
-  font-weight: italic;
+  src: url("/static/fonts/lato/lato-regita-webfont.eot");
+  src: url("/static/fonts/lato/lato-regita-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-regita-webfont.woff") format("woff"), url("/static/fonts/lato/lato-regita-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-regita-webfont.svg#Lato") format("svg");
+  font-weight: "normal";
+  font-style: "italic";
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url(/static/fonts/lato/lato-bolita-webfont.eot);
-  src: url(/static/fonts/lato/lato-bolita-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lato/lato-bolita-webfont.woff", "/static/fonts/lato/lato-bolita-webfont.ttf", "/static/fonts/lato/lato-bolita-webfont.svg");
-  font-weight: bold;
-  font-style: italic;
+  src: url("/static/fonts/lato/lato-bolita-webfont.eot");
+  src: url("/static/fonts/lato/lato-bolita-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lato/lato-bolita-webfont.woff") format("woff"), url("/static/fonts/lato/lato-bolita-webfont.ttf") format("truetype"), url("/static/fonts/lato/lato-bolita-webfont.svg#Lato") format("svg");
+  font-weight: "bold";
+  font-style: "italic";
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lekton";
-  src: url(/static/fonts/lekton/lekton-regular-webfont.eot);
-  src: url(/static/fonts/lekton/lekton-regular-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lekton/lekton-regular-webfont.woff", "/static/fonts/lekton/lekton-regular-webfont.ttf", "/static/fonts/lekton/lekton-regular-webfont.svg");
+  src: url("/static/fonts/lekton/lekton-regular-webfont.eot");
+  src: url("/static/fonts/lekton/lekton-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lekton/lekton-regular-webfont.woff") format("woff"), url("/static/fonts/lekton/lekton-regular-webfont.ttf") format("truetype"), url("/static/fonts/lekton/lekton-regular-webfont.svg#Lekton") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lekton";
-  src: url(/static/fonts/lekton/lekton-bold-webfont.eot);
-  src: url(/static/fonts/lekton/lekton-bold-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lekton/lekton-bold-webfont.woff", "/static/fonts/lekton/lekton-bold-webfont.ttf", "/static/fonts/lekton/lekton-bold-webfont.svg");
-  font-weight: bold;
+  src: url("/static/fonts/lekton/lekton-bold-webfont.eot");
+  src: url("/static/fonts/lekton/lekton-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lekton/lekton-bold-webfont.woff") format("woff"), url("/static/fonts/lekton/lekton-bold-webfont.ttf") format("truetype"), url("/static/fonts/lekton/lekton-bold-webfont.svg#Lekton") format("svg");
+  font-weight: "bold";
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lekton";
-  src: url(/static/fonts/lekton/lekton-italic-webfont.eot);
-  src: url(/static/fonts/lekton/lekton-italic-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lekton/lekton-italic-webfont.woff", "/static/fonts/lekton/lekton-italic-webfont.ttf", "/static/fonts/lekton/lekton-italic-webfont.svg");
-  font-weight: italic;
+  src: url("/static/fonts/lekton/lekton-italic-webfont.eot");
+  src: url("/static/fonts/lekton/lekton-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lekton/lekton-italic-webfont.woff") format("woff"), url("/static/fonts/lekton/lekton-italic-webfont.ttf") format("truetype"), url("/static/fonts/lekton/lekton-italic-webfont.svg#Lekton") format("svg");
+  font-weight: "normal";
+  font-style: "italic";
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: "Lakaxita";
-  src: url(/static/fonts/lakaxita/lakaxita-webfont.eot);
-  src: url(/static/fonts/lakaxita/lakaxita-webfont.eot?#iefix) format('embedded-opentype'), font-file("/static/fonts/lakaxita/lakaxita-webfont.woff", "/static/fonts/lakaxita/lakaxita-webfont.ttf", "/static/fonts/lakaxita/lakaxita-webfont.svg");
+  src: url("/static/fonts/lakaxita/lakaxita-webfont.eot");
+  src: url("/static/fonts/lakaxita/lakaxita-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/lakaxita/lakaxita-webfont.woff") format("woff"), url("/static/fonts/lakaxita/lakaxita-webfont.ttf") format("truetype"), url("/static/fonts/lakaxita/lakaxita-webfont.svg#Lakaxita") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 /* line 17, ../sass/main.sass */

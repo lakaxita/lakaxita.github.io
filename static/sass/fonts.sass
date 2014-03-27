@@ -1,23 +1,24 @@
-+font-face(Arvo, font-file("/static/fonts/arvo/arvo-regular-webfont.woff", "/static/fonts/arvo/arvo-regular-webfont.ttf", "/static/fonts/arvo/arvo-regular-webfont.svg"), "/static/fonts/arvo/arvo-regular-webfont.eot")
+=declare-font-face($font-family, $font-filename, $font-weight: normal, $font-style: normal, $font-stretch: normal)
+    @font-face
+        font-family: '#{$font-family}'
+        src: url('#{$font-filename}.eot')
+        src: url('#{$font-filename}.eot?#iefix') format('embedded-opentype'), url('#{$font-filename}.woff') format('woff'), url('#{$font-filename}.ttf') format('truetype'), url('#{$font-filename}.svg##{$font-family}') format('svg')
+        font-weight: $font-weight
+        font-style: $font-style
+        font-stretch: $font-stretch
 
-+font-face(Arvo, font-file("/static/fonts/arvo/arvo-bold-webfont.woff", "/static/fonts/arvo/arvo-bold-webfont.ttf", "/static/fonts/arvo/arvo-bold-webfont.svg"), "/static/fonts/arvo/arvo-bold-webfont.eot", bold)
++declare-font-face('Arvo', '/static/fonts/arvo/arvo-regular-webfont')
++declare-font-face('Arvo', '/static/fonts/arvo/arvo-bold-webfont', 'bold')
++declare-font-face('Arvo', '/static/fonts/arvo/arvo-italic-webfont', 'normal', 'italic')
++declare-font-face('Arvo', '/static/fonts/arvo/arvo-bolditalic-webfont', 'bold', 'italic')
 
-+font-face(Arvo, font-file("/static/fonts/arvo/arvo-italic-webfont.woff", "/static/fonts/arvo/arvo-italic-webfont.ttf", "/static/fonts/arvo/arvo-italic-webfont.svg"), "/static/fonts/arvo/arvo-italic-webfont.eot", italic)
++declare-font-face('Lato', '/static/fonts/lato/lato-reg-webfont')
++declare-font-face('Lato', '/static/fonts/lato/lato-bol-webfont', 'bold')
++declare-font-face('Lato', '/static/fonts/lato/lato-regita-webfont', 'normal', 'italic')
++declare-font-face('Lato', '/static/fonts/lato/lato-bolita-webfont', 'bold', 'italic')
 
-+font-face(Arvo, font-file("/static/fonts/arvo/arvo-bolditalic-webfont.woff", "/static/fonts/arvo/arvo-bolditalic-webfont.ttf", "/static/fonts/arvo/arvo-bolditalic-webfont.svg"), "/static/fonts/arvo/arvo-bolditalic-webfont.eot", bold, italic)
++declare-font-face('Lekton', '/static/fonts/lekton/lekton-regular-webfont')
++declare-font-face('Lekton', '/static/fonts/lekton/lekton-bold-webfont', 'bold')
++declare-font-face('Lekton', '/static/fonts/lekton/lekton-italic-webfont', 'normal', 'italic')
 
-+font-face(Lato, font-file("/static/fonts/lato/lato-reg-webfont.woff", "/static/fonts/lato/lato-reg-webfont.ttf", "/static/fonts/lato/lato-reg-webfont.svg"), "/static/fonts/lato/lato-reg-webfont.eot")
-
-+font-face(Lato, font-file("/static/fonts/lato/lato-bol-webfont.woff", "/static/fonts/lato/lato-bol-webfont.ttf", "/static/fonts/lato/lato-bol-webfont.svg"), "/static/fonts/lato/lato-bol-webfont.eot", bold)
-
-+font-face(Lato, font-file("/static/fonts/lato/lato-regita-webfont.woff", "/static/fonts/lato/lato-regita-webfont.ttf", "/static/fonts/lato/lato-regita-webfont.svg"), "/static/fonts/lato/lato-regita-webfont.eot", italic)
-
-+font-face(Lato, font-file("/static/fonts/lato/lato-bolita-webfont.woff", "/static/fonts/lato/lato-bolita-webfont.ttf", "/static/fonts/lato/lato-bolita-webfont.svg"), "/static/fonts/lato/lato-bolita-webfont.eot", bold, italic)
-
-+font-face(Lekton, font-file("/static/fonts/lekton/lekton-regular-webfont.woff", "/static/fonts/lekton/lekton-regular-webfont.ttf", "/static/fonts/lekton/lekton-regular-webfont.svg"), "/static/fonts/lekton/lekton-regular-webfont.eot")
-
-+font-face(Lekton, font-file("/static/fonts/lekton/lekton-bold-webfont.woff", "/static/fonts/lekton/lekton-bold-webfont.ttf", "/static/fonts/lekton/lekton-bold-webfont.svg"), "/static/fonts/lekton/lekton-bold-webfont.eot", bold)
-
-+font-face(Lekton, font-file("/static/fonts/lekton/lekton-italic-webfont.woff", "/static/fonts/lekton/lekton-italic-webfont.ttf", "/static/fonts/lekton/lekton-italic-webfont.svg"), "/static/fonts/lekton/lekton-italic-webfont.eot", italic)
-
-+font-face(Lakaxita, font-file("/static/fonts/lakaxita/lakaxita-webfont.woff", "/static/fonts/lakaxita/lakaxita-webfont.ttf", "/static/fonts/lakaxita/lakaxita-webfont.svg"), "/static/fonts/lakaxita/lakaxita-webfont.eot")
++declare-font-face('Lakaxita', '/static/fonts/lakaxita/lakaxita-webfont')
