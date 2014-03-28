@@ -27,6 +27,9 @@ body
     position: static
 
 header
+    position: fixed
+    top: 0
+    height: 5em
     font-family: $serif
     max-width: 100% !important
     margin: 0 !important
@@ -37,7 +40,7 @@ header
         color: $white
         margin: -50px 0 0 0
         font-size: 1.7em
-        +grid-column($columns:2)
+        +grid-column($columns:3)
         a
             color: $white
             vertical-align: baseline
@@ -47,17 +50,21 @@ header
     ul#social
         text-align: right
         margin: .5rem 0
-        +grid-column($columns:2, $offset:8)
+        +grid-column($columns:5, $offset:4)
         li
             display: inline-block
             list-style: none
             a
-                font-size: 2em
+                font-size: 1.5em
                 color: $light
+                line-height: 2.5em
+                @media #{$medium-up}
+                    font-size: 2em
+                    line-height: 1.5em
 
 section#description
     color: $white
-    margin: 3em 0 !important
+    margin: 8em 0 3em 0 !important
     +grid-row($behavior: nest)
     div#description_text
         text-align: justify
