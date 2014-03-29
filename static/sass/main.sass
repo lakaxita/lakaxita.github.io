@@ -27,15 +27,16 @@ body
     position: static
 
 header
-    position: fixed
-    top: 0
-    height: 5em
     font-family: $serif
     max-width: 100% !important
     margin: 0 !important
     background: $black
     padding: .4em
     +grid-row()
+    @media #{$medium-up}
+        position: fixed
+        top: 0
+        height: 5em
     h1#title
         color: $white
         margin: -50px 0 0 0
@@ -63,9 +64,13 @@ header
                     line-height: 1.5em
 
 section#description
+    z-index: -1
+    position: relative
     color: $white
-    margin: 8em 0 3em 0 !important
+    margin: 3em 0 !important
     +grid-row($behavior: nest)
+    @media #{$medium-up}
+        margin: 8em 0 3em 0 !important
     div#description_text
         text-align: justify
         +grid-column($columns:12)
@@ -179,6 +184,7 @@ footer
             list-style: none
             a
                 font-size: 3em
+                color: $white
     div#footer_details
         text-align: right
         +grid-column($columns:12)
