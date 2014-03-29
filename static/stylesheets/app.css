@@ -11241,7 +11241,7 @@ div#wrap main article {
   margin: 0 2rem 2rem 2rem;
 }
 /* line 126, ../sass/main.sass */
-div#wrap main article time, div#wrap main article a.author {
+div#wrap main article time, div#wrap main article a.category {
   display: inline-block;
   color: #e6e6e6;
   font-family: Arvo;
@@ -11254,7 +11254,7 @@ div#wrap main article time {
   background: #999999;
 }
 /* line 135, ../sass/main.sass */
-div#wrap main article a.author {
+div#wrap main article a.category {
   background: #4d4d4d;
 }
 /* line 137, ../sass/main.sass */

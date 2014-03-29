@@ -10,7 +10,7 @@ type: home
         <time>{{ post.date | date:"%Y/%m/%d" }}</time>
         {% endif %}
         {% assign category = post.categories|first %}
-        <a class="author" href="/#{{ category }}">{{ site.data.groups[category].name }}</a>
+        <a class="category" href="/#{{ category }}" data-category="{{ category }}">{{ site.data.groups[category].name }}</a>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         {{ post.excerpt }}
     </article>
