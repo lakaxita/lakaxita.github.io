@@ -11270,7 +11270,7 @@ div#wrap main article h1 a {
 }
 /* line 145, ../sass/main.sass */
 div#wrap main article h2 {
-  font-size: 1.3em;
+  font-size: 1.2rem !important;
 }
 /* line 147, ../sass/main.sass */
 div#wrap main article h3 {
