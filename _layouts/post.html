@@ -5,7 +5,8 @@ layout: default
 <article>
     <time>{{ page.date | date:"%Y/%m/%d" }}</time>
     {% assign category = page.categories|first %}
-    <a class="author" href="/#{{ category }}">{{ site.data.groups[category].name }}</a>
+    <time>{{ page.date | date:"%Y/%m/%d" }}</time>
+    <a class="category" href="/#{{ category }}" data-category="{{ category }}">{{ site.data.groups[category].name }}</a>
     <h1 class="title" >{{ page.title }}</h2>
 
     {{ content }}
