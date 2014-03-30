@@ -95,7 +95,7 @@ section#description
 div#wrap
     background: $white
     color: $black
-    margin: 0 !important
+    margin: 5em 0 0 0 !important
     max-width: 100% !important
     +grid-row()
     aside
@@ -122,8 +122,9 @@ div#wrap
         @media #{$large-up}
             +grid-column($columns:9)
         article
-            margin: 0 2rem 2rem 2rem
+            margin: 0 2rem 3rem 2rem
             time, a.category
+            time, a.author
                 display: inline-block
                 color: $white
                 font-family: $serif
@@ -135,7 +136,7 @@ div#wrap
             a.category
                 background: $grey
             h1
-                font-size: 1.45rem
+                font-size: 1.3rem
                 font-weight: bold
                 margin: .5rem 0 1rem
                 color: $black
