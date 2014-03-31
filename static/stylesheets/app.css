@@ -11222,6 +11222,7 @@ div#wrap aside nav ul li a {
 /* line 119, ../sass/main.sass */
 div#wrap main {
   margin: 50px 0;
+  padding: 0 50px !important;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
@@ -11236,12 +11237,12 @@ div#wrap main {
     float: left;
   }
 }
-/* line 124, ../sass/main.sass */
+/* line 125, ../sass/main.sass */
 div#wrap main article {
-  margin: 0 2rem 3rem 2rem;
+  margin: 0 0 3rem 0;
 }
 /* line 127, ../sass/main.sass */
-div#wrap main article time, div#wrap main article a.author {
+div#wrap main time, div#wrap main a.category {
   display: inline-block;
   color: #e6e6e6;
   font-family: Arvo;
@@ -11250,39 +11251,39 @@ div#wrap main article time, div#wrap main article a.author {
   font-weight: bold;
 }
 /* line 134, ../sass/main.sass */
-div#wrap main article time {
+div#wrap main time {
   background: #999999;
 }
 /* line 136, ../sass/main.sass */
-div#wrap main article a.category {
+div#wrap main a.category {
   background: #4d4d4d;
 }
 /* line 138, ../sass/main.sass */
-div#wrap main article h1 {
+div#wrap main h1 {
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0.5rem 0 1rem;
   color: #0a0a0a;
 }
 /* line 143, ../sass/main.sass */
-div#wrap main article h1 a {
+div#wrap main h1 a {
   color: #0a0a0a;
 }
 /* line 145, ../sass/main.sass */
-div#wrap main article h2 {
+div#wrap main h2 {
   font-size: 1.2rem !important;
 }
 /* line 147, ../sass/main.sass */
-div#wrap main article h3 {
+div#wrap main h3 {
   font-size: 1.1em;
 }
 /* line 149, ../sass/main.sass */
-div#wrap main article code {
+div#wrap main code {
   font-family: Lekton;
   color: #4d4d4d;
 }
 /* line 152, ../sass/main.sass */
-div#wrap main article div.prev-next {
+div#wrap main div.prev-next {
   margin: 2rem;
 }
 

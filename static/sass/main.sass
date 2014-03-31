@@ -118,39 +118,39 @@ div#wrap
                         color: $white
     main
         margin: 50px 0
+        padding: 0 50px !important
         +grid-column($columns:12)
         @media #{$large-up}
             +grid-column($columns:9)
         article
-            margin: 0 2rem 3rem 2rem
-            time, a.category
-            time, a.author
-                display: inline-block
-                color: $white
-                font-family: $serif
-                font-size: .8em
-                padding: .3em
-                font-weight: bold
-            time
-                background: $light
-            a.category
-                background: $grey
-            h1
-                font-size: 1.3rem
-                font-weight: bold
-                margin: .5rem 0 1rem
+            margin: 0 0 3rem 0
+        time, a.category
+            display: inline-block
+            color: $white
+            font-family: $serif
+            font-size: .8em
+            padding: .3em
+            font-weight: bold
+        time
+            background: $light
+        a.category
+            background: $grey
+        h1
+            font-size: 1.3rem
+            font-weight: bold
+            margin: .5rem 0 1rem
+            color: $black
+            a
                 color: $black
-                a
-                    color: $black
-            h2
-                font-size: 1.2rem !important
-            h3
-                font-size: 1.1em
-            code
-                font-family: $mono
-                color: $grey
-            div.prev-next
-                margin: 2rem
+        h2
+            font-size: 1.2rem !important
+        h3
+            font-size: 1.1em
+        code
+            font-family: $mono
+            color: $grey
+        div.prev-next
+            margin: 2rem
 
 div#wrap:before
     position: absolute
