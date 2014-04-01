@@ -97,6 +97,7 @@ div#wrap
     color: $black
     margin: 5em 0 0 0 !important
     max-width: 100% !important
+    padding-bottom: 50px
     +grid-row()
     aside
         margin-top: 50px
@@ -117,7 +118,7 @@ div#wrap
                     a
                         color: $white
     main
-        margin: 50px 0
+        margin: 50px 0 0 0
         padding: 0 50px !important
         +grid-column($columns:12)
         @media #{$large-up}
@@ -173,12 +174,14 @@ footer
     color: $white
     padding: 1em
     max-width: 100% !important
+    text-align: center
     +grid-row()
     ul#licenses
         color: $white
         margin: 0
         +grid-column($columns:12)
         @media #{$medium-up}
+            text-align: left
             +grid-column($columns:6)
         li
             display: inline-block
@@ -187,11 +190,12 @@ footer
                 font-size: 3em
                 color: $white
     div#footer_details
-        text-align: right
         +grid-column($columns:12)
         @media #{$medium-up}
+            text-align: right
             +grid-column($columns:6)
         address
+            line-height: 1.5em
             a.lakaxita
                 font-weight: bold
                 font-size: 1.3em
