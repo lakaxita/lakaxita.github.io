@@ -11223,7 +11223,7 @@ div#wrap aside nav ul li a {
 /* line 120, ../sass/main.sass */
 div#wrap main {
   margin: 50px 0 0 0;
-  padding: 0 50px !important;
+  padding: 0 20px !important;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
@@ -11232,17 +11232,18 @@ div#wrap main {
 @media only screen and (min-width: 64.063em) {
   /* line 120, ../sass/main.sass */
   div#wrap main {
+    padding: 0 50px !important;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 75%;
     float: left;
   }
 }
-/* line 126, ../sass/main.sass */
+/* line 127, ../sass/main.sass */
 div#wrap main article {
   margin: 0 0 3rem 0;
 }
-/* line 128, ../sass/main.sass */
+/* line 129, ../sass/main.sass */
 div#wrap main time, div#wrap main a.category {
   display: inline-block;
   color: #e6e6e6;
@@ -11251,44 +11252,44 @@ div#wrap main time, div#wrap main a.category {
   padding: 0.3em;
   font-weight: bold;
 }
-/* line 135, ../sass/main.sass */
+/* line 136, ../sass/main.sass */
 div#wrap main time {
   background: #999999;
 }
-/* line 137, ../sass/main.sass */
+/* line 138, ../sass/main.sass */
 div#wrap main a.category {
   background: #4d4d4d;
 }
-/* line 139, ../sass/main.sass */
+/* line 140, ../sass/main.sass */
 div#wrap main h1 {
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0.5rem 0 1rem;
   color: #0a0a0a;
 }
-/* line 144, ../sass/main.sass */
+/* line 145, ../sass/main.sass */
 div#wrap main h1 a {
   color: #0a0a0a;
 }
-/* line 146, ../sass/main.sass */
+/* line 147, ../sass/main.sass */
 div#wrap main h2 {
   font-size: 1.2rem !important;
 }
-/* line 148, ../sass/main.sass */
+/* line 149, ../sass/main.sass */
 div#wrap main h3 {
   font-size: 1.1em;
 }
-/* line 150, ../sass/main.sass */
+/* line 151, ../sass/main.sass */
 div#wrap main code {
   font-family: Lekton;
   color: #4d4d4d;
 }
-/* line 153, ../sass/main.sass */
+/* line 154, ../sass/main.sass */
 div#wrap main div.prev-next {
   margin: 2rem;
 }
 
-/* line 156, ../sass/main.sass */
+/* line 157, ../sass/main.sass */
 div#wrap:before {
   position: absolute;
   content: "o";
@@ -11307,7 +11308,7 @@ div#wrap:before {
   z-index: 10;
 }
 
-/* line 173, ../sass/main.sass */
+/* line 174, ../sass/main.sass */
 footer {
   color: #e6e6e6;
   padding: 1em;
@@ -11322,7 +11323,7 @@ footer {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 179, ../sass/main.sass */
+/* line 180, ../sass/main.sass */
 footer ul#licenses {
   color: #e6e6e6;
   margin: 0;
@@ -11332,7 +11333,7 @@ footer ul#licenses {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 179, ../sass/main.sass */
+  /* line 180, ../sass/main.sass */
   footer ul#licenses {
     text-align: left;
     padding-left: 0.9375rem;
@@ -11341,17 +11342,17 @@ footer ul#licenses {
     float: left;
   }
 }
-/* line 186, ../sass/main.sass */
+/* line 187, ../sass/main.sass */
 footer ul#licenses li {
   display: inline-block;
   list-style: none;
 }
-/* line 189, ../sass/main.sass */
+/* line 190, ../sass/main.sass */
 footer ul#licenses li a {
   font-size: 3em;
   color: #e6e6e6;
 }
-/* line 192, ../sass/main.sass */
+/* line 193, ../sass/main.sass */
 footer div#footer_details {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11359,7 +11360,7 @@ footer div#footer_details {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 192, ../sass/main.sass */
+  /* line 193, ../sass/main.sass */
   footer div#footer_details {
     text-align: right;
     padding-left: 0.9375rem;
@@ -11368,20 +11369,20 @@ footer div#footer_details {
     float: left;
   }
 }
-/* line 197, ../sass/main.sass */
+/* line 198, ../sass/main.sass */
 footer div#footer_details address {
   line-height: 1.5em;
 }
-/* line 199, ../sass/main.sass */
+/* line 200, ../sass/main.sass */
 footer div#footer_details address a.lakaxita {
   font-weight: bold;
   font-size: 1.3em;
 }
-/* line 202, ../sass/main.sass */
+/* line 203, ../sass/main.sass */
 footer div#footer_details a.admin {
   color: #171717;
 }
-/* line 204, ../sass/main.sass */
+/* line 205, ../sass/main.sass */
 footer div#footer_details a.admin:hover {
   color: #4d4d4d;
 }
