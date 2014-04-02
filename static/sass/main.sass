@@ -131,12 +131,14 @@ div#wrap
                 margin: 0
                 list-style: none
                 li
-                    background: $grey
+                    background: scale-lightness(#000, 6%)
                     width: 100%
                     margin: .2em
                     padding: 0 1em
                     a
                         color: $white
+                li.posts
+                    background: $grey
     main
         margin: 50px 0 0 0
         padding: 0 20px !important
@@ -217,9 +219,6 @@ footer
             +grid-column($columns:6)
         address
             line-height: 1.5em
-            a.lakaxita
-                font-weight: bold
-                font-size: 1.3em
         a.admin
             color: $dark
         a.admin:hover

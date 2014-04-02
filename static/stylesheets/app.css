@@ -11256,7 +11256,7 @@ div#wrap aside nav ul {
 }
 /* line 133, ../sass/main.sass */
 div#wrap aside nav ul li {
-  background: #4d4d4d;
+  background: #0f0f0f;
   width: 100%;
   margin: 0.2em;
   padding: 0 1em;
@@ -11266,6 +11266,10 @@ div#wrap aside nav ul li a {
   color: #e6e6e6;
 }
 /* line 140, ../sass/main.sass */
+div#wrap aside nav ul li.posts {
+  background: #4d4d4d;
+}
+/* line 142, ../sass/main.sass */
 div#wrap main {
   margin: 50px 0 0 0;
   padding: 0 20px !important;
@@ -11275,7 +11279,7 @@ div#wrap main {
   float: left;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 140, ../sass/main.sass */
+  /* line 142, ../sass/main.sass */
   div#wrap main {
     padding: 0 50px !important;
     padding-left: 0.9375rem;
@@ -11284,11 +11288,11 @@ div#wrap main {
     float: left;
   }
 }
-/* line 147, ../sass/main.sass */
+/* line 149, ../sass/main.sass */
 div#wrap main article {
   margin: 0 0 3rem 0;
 }
-/* line 149, ../sass/main.sass */
+/* line 151, ../sass/main.sass */
 div#wrap main time, div#wrap main a.category {
   display: inline-block;
   color: #e6e6e6;
@@ -11297,44 +11301,44 @@ div#wrap main time, div#wrap main a.category {
   padding: 0.3em;
   font-weight: bold;
 }
-/* line 156, ../sass/main.sass */
+/* line 158, ../sass/main.sass */
 div#wrap main time {
   background: #999999;
 }
-/* line 158, ../sass/main.sass */
+/* line 160, ../sass/main.sass */
 div#wrap main a.category {
   background: #4d4d4d;
 }
-/* line 160, ../sass/main.sass */
+/* line 162, ../sass/main.sass */
 div#wrap main h1 {
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0.5rem 0 1rem;
   color: #0a0a0a;
 }
-/* line 165, ../sass/main.sass */
+/* line 167, ../sass/main.sass */
 div#wrap main h1 a {
   color: #0a0a0a;
 }
-/* line 167, ../sass/main.sass */
+/* line 169, ../sass/main.sass */
 div#wrap main h2 {
   font-size: 1.2rem !important;
 }
-/* line 169, ../sass/main.sass */
+/* line 171, ../sass/main.sass */
 div#wrap main h3 {
   font-size: 1.1em;
 }
-/* line 171, ../sass/main.sass */
+/* line 173, ../sass/main.sass */
 div#wrap main code {
   font-family: Lekton;
   color: #4d4d4d;
 }
-/* line 174, ../sass/main.sass */
+/* line 176, ../sass/main.sass */
 div#wrap main div.prev-next {
   margin: 2rem;
 }
 
-/* line 177, ../sass/main.sass */
+/* line 179, ../sass/main.sass */
 div#wrap:before {
   position: absolute;
   content: "o";
@@ -11356,7 +11360,7 @@ div#wrap:before {
   z-index: 10;
 }
 
-/* line 194, ../sass/main.sass */
+/* line 196, ../sass/main.sass */
 footer {
   color: #e6e6e6;
   padding: 1em;
@@ -11371,7 +11375,7 @@ footer {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 200, ../sass/main.sass */
+/* line 202, ../sass/main.sass */
 footer ul#licenses {
   color: #e6e6e6;
   margin: 0;
@@ -11381,7 +11385,7 @@ footer ul#licenses {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 200, ../sass/main.sass */
+  /* line 202, ../sass/main.sass */
   footer ul#licenses {
     text-align: left;
     padding-left: 0.9375rem;
@@ -11390,17 +11394,17 @@ footer ul#licenses {
     float: left;
   }
 }
-/* line 207, ../sass/main.sass */
+/* line 209, ../sass/main.sass */
 footer ul#licenses li {
   display: inline-block;
   list-style: none;
 }
-/* line 210, ../sass/main.sass */
+/* line 212, ../sass/main.sass */
 footer ul#licenses li a {
   font-size: 3em;
   color: #e6e6e6;
 }
-/* line 213, ../sass/main.sass */
+/* line 215, ../sass/main.sass */
 footer div#footer_details {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11408,7 +11412,7 @@ footer div#footer_details {
   float: left;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 213, ../sass/main.sass */
+  /* line 215, ../sass/main.sass */
   footer div#footer_details {
     text-align: right;
     padding-left: 0.9375rem;
@@ -11417,20 +11421,15 @@ footer div#footer_details {
     float: left;
   }
 }
-/* line 218, ../sass/main.sass */
+/* line 220, ../sass/main.sass */
 footer div#footer_details address {
   line-height: 1.5em;
 }
-/* line 220, ../sass/main.sass */
-footer div#footer_details address a.lakaxita {
-  font-weight: bold;
-  font-size: 1.3em;
-}
-/* line 223, ../sass/main.sass */
+/* line 222, ../sass/main.sass */
 footer div#footer_details a.admin {
   color: #171717;
 }
-/* line 225, ../sass/main.sass */
+/* line 224, ../sass/main.sass */
 footer div#footer_details a.admin:hover {
   color: #4d4d4d;
 }
