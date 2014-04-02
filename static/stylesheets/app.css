@@ -11256,7 +11256,7 @@ div#wrap aside nav ul {
 }
 /* line 133, ../sass/main.sass */
 div#wrap aside nav ul li {
-  background: #0f0f0f;
+  background: #0a0a0a;
   width: 100%;
   margin: 0.2em;
   padding: 0 1em;
@@ -11266,8 +11266,8 @@ div#wrap aside nav ul li a {
   color: #e6e6e6;
 }
 /* line 140, ../sass/main.sass */
-div#wrap aside nav ul li.posts {
-  background: #4d4d4d;
+div#wrap aside nav ul li.category {
+  background: #171717;
 }
 /* line 142, ../sass/main.sass */
 div#wrap main {

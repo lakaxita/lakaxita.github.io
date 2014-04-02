@@ -45,7 +45,7 @@
                         {% include extra_nav.html %}
                         {% for cat in site.categories %}
                         {% assign category = cat|first %}
-                        <li><a class="category" data-category="{{ category }}" href="/#{{ category }}">{{ site.data.groups[category].name }}</a></li>
+                        <li class="category"><a data-category="{{ category }}" href="/#{{ category }}">{{ site.data.groups[category].name }}</a></li>
                         {% endfor %}
                     </ul>
                 </nav>
