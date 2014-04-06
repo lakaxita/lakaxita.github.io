@@ -82,6 +82,21 @@ header
                     font-size: 2em
                     line-height: 1.5em
 
+div#squatter
+    position: absolute
+    content: 'o'
+    text-align: center
+    padding: 17px
+    font-size: 50px
+    color: $white
+    pointer-events: none
+    background: $dark
+    border-radius: 50%
+    height: 80px
+    left: 50%
+    width: 80px
+    z-index: 10
+
 section#description
     z-index: -1
     position: relative
@@ -176,22 +191,6 @@ div#wrap
         div.prev-next
             margin: 2rem
 
-div#wrap:before
-    position: absolute
-    content: 'o'
-    font-family: $icon
-    text-align: center
-    padding: 17px
-    font-size: 50px
-    color: $white
-    pointer-events: none
-    background: $dark
-    border-radius: 50%
-    height: 80px
-    left: 50%
-    +transform(translate(-50%,-50%))
-    width: 80px
-    z-index: 10
 
 footer
     color: $white
