@@ -11273,7 +11273,7 @@ div#wrap aside nav ul {
 }
 /* line 148, ../sass/main.sass */
 div#wrap aside nav ul li {
-  background: #0a0a0a;
+  background: #171717;
   width: 100%;
   margin: 0.2em;
   padding: 0 1em;
@@ -11284,7 +11284,7 @@ div#wrap aside nav ul li a {
 }
 /* line 155, ../sass/main.sass */
 div#wrap aside nav ul li.category {
-  background: #171717;
+  background: #242424;
 }
 /* line 157, ../sass/main.sass */
 div#wrap main {
