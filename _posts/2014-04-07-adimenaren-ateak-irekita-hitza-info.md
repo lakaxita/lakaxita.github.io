@@ -51,36 +51,38 @@ Gaurtik hasi eta hilaren 11ra bitartean izango da Donostian martxan Giza Eskubid
 Zehazki, hilaren 10ean (osteguna) egingo dute pasea, 19:00etatik aurrera, Viktoria Eugenia antzokian. Dokumental horretan Lezo eta Oiartzungo okupazioarekin lotutako pertsonen testigantzak bildu ditu. 89 minutuko lana da.
 Oiartzungo Arditurriko etxe okupatua.
 
+![](/http://oarsobidasoa.hitza.info/files/2014/04/p005_f02-300x199.jpg)
 Oiartzungo Arditurriko etxe okupatua.
 
-‘###
-
-Echeverriatik Etxeberriara’
+### 'Echeverriatik Etxeberriara'
 Gutierrez ez da izango Oarsoaldeko ordezkari bakarra zinemaldian, Ander Iriarte oiartzuarrak Echevarriatik Etxeberriara. Oiartzun: Indarkeriarekin bizi izan den herri baten kronikak lana aurkeztuko baitu. Oiartzunen, ezker abertzalearen inguruan izan diren indarkeria mota ezberdinak aztertuko ditu lan horrek.
-Iune Trecet, Irungo Lakaxita gaztetxeko kidea: «Pribatua dena askatu egiten dugu okupazioaren bidez»
-Iune Trecet
 
+
+## Iune Trecet, Irungo Lakaxita gaztetxeko kidea: «Pribatua dena askatu egiten dugu okupazioaren bidez»
+
+
+![](/http://oarsobidasoa.hitza.info/files/2014/04/p005_f03-207x300.jpg)
 Iune Trecet
 
 Okupazioaren adibide berrietako bat da Irungo Lakaxita gaztetxearena. 2005. urtean okupatu zuten Anaka auzoan dagoen eraikina, eta gaur egun hainbat eragileren elkargune da. Bertako kide da Iune Trecet (Donostia, 1985).
 
-Lakaxita egungo Irungo gaztetxea da, okupatua izan zen eraikina. Nolatan eraman zen aurrera okupazio hori?
+**Lakaxita egungo Irungo gaztetxea da, okupatua izan zen eraikina. Nolatan eraman zen aurrera okupazio hori?**
 Talde bat zegoen Irunen, Gazteak Bizirik deitutakoa. Bertan gazteei lotutako gauzak lantzen zituzten. Ikusi zuten gazteak geroz eta gehiago ari zirela sartzen lokaletan; alegia, zerbait indibidualean eta ordainpekoan, eta era berean, ez zirela euren artean erlazionatzen. Hala, erabaki zuten Irunen gaztetxe bat sortzea. Lehenengo pausoa izan zen udalarekin hitz egitea, eta erantzuna izan zen ezin zela ezer egin. Aukeratu zen bidea okupaziorena izan zen. 2005ean okupatu zuten.
 
-Zergatik Lakaxita?
+**Zergatik Lakaxita?**
 Hainbat leku aztertu ziren. Cerillas okupatu zen, baina ordu batzuetara desalojatu zuten. Etxe hau aurkitu zuten, kooperatiba batena zena. Jabeekin hitz egin genuen, eta erantzun ziguten ez gintuztela babestuko, baina ez zutela ere ezer egingo gure aurka. 2006. urtean epaile batek aurrebistara deitu zituen Lakaxitako bi kide, eraikinaren jabeek salatu gintuztelakoan. Baina jabeek, epailearen aurrean, udaltzainen presioen ondorioz jarri zutela salaketa esan zuten. Informazio horrekin eta herrian gizarte lana egiten genuela zehaztuz, kasua artxibatu zuten.
 
-Zein funtzio betetzen du gaztetxeak?
+**Zein funtzio betetzen du gaztetxeak?**
 Hainbat eragile elkartzen gara bilerak eta jarduerak egiteko, eta saiatzen gara tailer eta hitzaldi alternatiboak eskaintzen, udalaren eskaintzatik at.
 
-Bidasoan badago beste adibiderik?
+**Bidasoan badago beste adibiderik?**
 Lakaxitaren aurretik, Cerillas izan zen, Irunen. Hori gaztetxe izatera iritsi zen 1980eko hamarkadan. Eraikina hustu zuten, erre zelako. Hondarribian 1990. urtera arte gaztetxea izan zuten.
 
-Zergatik okupatu?
+**Zergatik okupatu?**
 Azkenean jarduera politiko bat bezala ulertzen dugu okupazioa, zerbait pribatua dena, askatu egiten dugu okupazioaren bidez, baina beti ere erabiltzen ez den leku bat hartuz. Leku hori herriak hartu eta herriarentzat erabilera ematea da asmoa.
 
 Gazteek, hain zuzen, independizatzeko arazoak izaten dituzte; horrez gain, egun oso ohikoak dira ere etxe kaleratzeak. Okupazioa horren irtenbidea izan daiteke?
 Okupazioak bizi eredu ezberdin bat izateko aukera ematen badigu, alternatiba bat da, bai. Ez gaude jabetza pribatuaren alde, eta hutsik dauden etxeak askatzen badira bizitzeko edo gaztetxe bat sortzeko beti alde egongo gara.
 
-Gaur egun aurreiritzi asko existitzen dira okupazioarekiko?
+**Gaur egun aurreiritzi asko existitzen dira okupazioarekiko?**
 Ez daukagu oso argi zenbat jende dagoen okupatzen, ez nolakoak diren, okupazioak zer esan nahi duen… Iruditzen zaigu etorriko direla nire etxera, eta kenduko didatela. Azken finean, aldaketak beti ematen digu beldurra.
