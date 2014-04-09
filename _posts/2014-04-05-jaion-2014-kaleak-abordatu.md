@@ -13,5 +13,5 @@ Gure inguruko marrazoek uste dute piratak gaiztoak garela, zikinak, eta begirune
 
 Lakaxitaren ontzia itsasoan barrena dabil. Ilusioz eta kolorez beteriko ontzia da, pertsona guztiak ongietorriak dira gure ontzian, autogestioa banderatzat harturik, denon artean arraun eginez aurrera hobe egingo dugula uste baitugu!
 
-<img src="{{ ASSET_PATH }}images/jaion.jpg" />
+![Jaion 2014](/http://lakaxita.org/static/images/jaion.jpg)
 
