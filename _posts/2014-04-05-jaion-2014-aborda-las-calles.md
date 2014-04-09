@@ -15,4 +15,9 @@ Los tiburones que tenemos alrededor piensan que somos piratas malvadas, sucias, 
 
 El barco de Lakaxita marcha a través de los once mares. Lleno de ilusión y color, todas las personas serán bienvenidas a cubierta, con la autogestión por bandera, remaremos con más fuerza si remamos todas juntas.
 
+
+![Jaion 2014](/http://lakaxita.org/static/images/jaion.jpg)
+
+
+
 <img src="{{ ASSET_PATH }}images/jaion.jpg" />
