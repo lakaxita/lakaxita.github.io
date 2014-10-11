@@ -3,6 +3,25 @@ layout: page
 title: Lakaxita
 ---
 
+{% include JB/setup %}
+
+Lakaxitari buruz gehiago jakin nahi baduzu, duela urte batzuk argitaratutako
+liburua duzu eskura ([pdf][pdf]|[epub][epub]).
+
+[pdf]: {{ASSET_PATH}}book/lakaxita.pdf
+[epub]: {{ASSET_PATH}}book/lakaxita.epub
+
+Kontaktua
+---------
+
+Eposta helbidea: [kontaktua@lakaxita.org](mailto:kontaktua@lakaxita.org)
+
+Posta helbidea:
+
+    Lakaxita Gaztetxea
+    Anaka 20
+    20300, Irun
+
 Kokapena
 --------
 
