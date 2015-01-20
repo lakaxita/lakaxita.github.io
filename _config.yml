@@ -16,6 +16,7 @@ timezone: "Europe/Paris"
 production_url: http://lakaxita.org/
 admin_url: http://prose.io/#lakaxita/lakaxita.github.io
 permalink: /:categories/:year/:month/:day/:title
+baseurl: /
 
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
@@ -25,18 +26,6 @@ markdown: redcarpet
 redcarpet:
     extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
                 "quote", "footnotes"]
-
-JB:
-    BASE_PATH: false
-    ASSET_PATH: /static/
-    atom_path: /atom.xml
-    rss_path: /rss.xml
-    comments:
-        provider: false
-    analytics:
-        provider: false
-    sharing:
-        provider: false
 
 prose:
     siteurl: "http://lakaxita.org"

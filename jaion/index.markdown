@@ -4,8 +4,6 @@ title: "Jaion Pirata: Kaleak abordatu!"
 published: true
 ---
 
-{% include JB/setup %}
-
 <iframe src="//player.vimeo.com/video/92720759?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Esaten da, eta hala omen, euskal pirateriaren urrezko aroa XVI. eta XVII. mendeetan izan zela. Yrunen, ordea, azken urteetan eman da piraten aro oparoena. Asfaltoetako piratak izan gara, gure ontzian, borrokarako gertu, boteretsuen aurrean tinko. Azken aldian, ostera, kolokan jarri da, jarri digute oparotasun hori. Gero eta zailago egiten digute borrokan jarraitzea. Dela banketxeen zitalkeriagatik, Elizaren atzerakoikeria, indar polizialen zapalkuntza, espekulatzaileen doilorkeria edota udalaren aldetik gu denak kontrolatzeko nahiagatik. Honen aurrean, JAION dugu erantzuna emateko abagunea. Apirilaren 26an, bete ditzagun kaleak pirataz, eta aborda ditzagun! Izan ere, orain arte JAION kale okupazioaren bidezko gizarte iraulketa sortzaile eta dibertido gisa definitu izan dugu, eta hala izango da aurten ere, baina oraingoan berrikuntza batekin: kale okupazioaren bidezko gizarte iraulketa sortzaile, dibertido eta PIRATA izango da! Bete ditzagun, bai, kaleak pirataz. Egin diezaiegun aurre zapi, partxe eta patapaluakin!
@@ -28,4 +26,4 @@ Los tiburones que tenemos alrededor piensan que somos piratas malvadas, sucias, 
 
 El barco de Lakaxita marcha a través de los once mares. Lleno de ilusión y color, todas las personas serán bienvenidas a cubierta, con la autogestión por bandera, remaremos con más fuerza si remamos todas juntas.
 
-<img src="{{ ASSET_PATH }}images/jaion.jpg" />
+<img src="{{ site.baseurl }}images/jaion.jpg" />
