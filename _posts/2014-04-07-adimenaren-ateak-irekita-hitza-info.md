@@ -7,7 +7,7 @@ categories: lakaxita
 
 [Aizpea Amasek idatzia Oarsoaldeako eta Bidasoko hitzan (2014/04/07)](http://oarsobidasoa.hitza.info/paperekoak/adimenaren-ateak-irekita/)
 
-![](/http://oarsobidasoa.hitza.info/files/2014/04/okupa-1007x1024.jpg)
+![](http://oarsobidasoa.hitza.info/files/2014/04/okupa-1007x1024.jpg)
 
 Okupazioaren gaineko estereotipoak apurtu zaizkio Juanmi Gutierrez zine zuzendari errenteriarrari bere azken lanean, Ateak zabalduz dokumentala. Ikusleei ere gauza bera gertatzea espero du; alegia, mugimendu horri ixten dizkieten ateak irekitzea, aurreiritziak apurtuz.
 
@@ -41,7 +41,7 @@ Nolanahi ere, okupek ez dutela zertan etxebizitza doakoa bilatzen esan du, baizi
 Lezoko Txerrimuño etxe okupatuak 30 urte ditu.
 
 
-![](/http://oarsobidasoa.hitza.info/files/2014/04/p005_f01-300x199.jpg)
+![](http://oarsobidasoa.hitza.info/files/2014/04/p005_f01-300x199.jpg)
 Lezoko Txerrimuño etxe okupatuak 30 urte ditu.
 
 > Giza eskubideen zinemaldian izango da ‘Ateak zabalduz’
@@ -51,7 +51,7 @@ Gaurtik hasi eta hilaren 11ra bitartean izango da Donostian martxan Giza Eskubid
 Zehazki, hilaren 10ean (osteguna) egingo dute pasea, 19:00etatik aurrera, Viktoria Eugenia antzokian. Dokumental horretan Lezo eta Oiartzungo okupazioarekin lotutako pertsonen testigantzak bildu ditu. 89 minutuko lana da.
 Oiartzungo Arditurriko etxe okupatua.
 
-![](/http://oarsobidasoa.hitza.info/files/2014/04/p005_f02-300x199.jpg)
+![](http://oarsobidasoa.hitza.info/files/2014/04/p005_f02-300x199.jpg)
 Oiartzungo Arditurriko etxe okupatua.
 
 ### 'Echeverriatik Etxeberriara'
@@ -61,7 +61,7 @@ Gutierrez ez da izango Oarsoaldeko ordezkari bakarra zinemaldian, Ander Iriarte 
 ## Iune Trecet, Irungo Lakaxita gaztetxeko kidea: «Pribatua dena askatu egiten dugu okupazioaren bidez»
 
 
-![](/http://oarsobidasoa.hitza.info/files/2014/04/p005_f03-207x300.jpg)
+![](http://oarsobidasoa.hitza.info/files/2014/04/p005_f03-207x300.jpg)
 Iune Trecet
 
 Okupazioaren adibide berrietako bat da Irungo Lakaxita gaztetxearena. 2005. urtean okupatu zuten Anaka auzoan dagoen eraikina, eta gaur egun hainbat eragileren elkargune da. Bertako kide da Iune Trecet (Donostia, 1985).
