@@ -21,7 +21,7 @@ baseurl: /
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
 excerpt_separator: "<!--break-->"
-pygments: true
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
     extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
