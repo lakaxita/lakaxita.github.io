@@ -150,6 +150,8 @@ div#wrap
             +grid-column($columns:9)
         article
             margin: 0 0 3rem 0
+            clear: both
+            overflow: hidden
         time, a.category
             display: inline-block
             color: $white
@@ -177,6 +179,14 @@ div#wrap
             color: $grey
         div.prev-next
             margin: 2rem
+        div.field-item
+            display: inline-block
+            font-weight: bold
+            &.even
+                font-weight: normal
+                padding-left: .3em
+div#player
+    max-width: 100%
 
 div#wrap:before
     position: absolute
