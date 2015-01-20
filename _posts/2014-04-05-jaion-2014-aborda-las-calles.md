@@ -20,4 +20,4 @@ El barco de Lakaxita marcha a través de los once mares. Lleno de ilusión y col
 
 
 
-<img src="{{ ASSET_PATH }}images/jaion.jpg" />
+<img src="{{ site.baseurl }}images/jaion.jpg" />

@@ -18,4 +18,4 @@ en el gaztetxe Lakaxita de Irun. En esta ocasión vamos a katxarrear con
 las RaspberriPys, las vamos a convertir en una consola de videojuegos y
 vamos a hacer un piano de escalera, anímate y pásate!
 
-<img src="{{ ASSET_PATH }}images/cartel_bitsbits_3.png" />
+<img src="{{ site.baseurl }}images/cartel_bitsbits_3.png" />
