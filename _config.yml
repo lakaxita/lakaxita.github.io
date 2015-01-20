@@ -19,7 +19,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
-excerpt_separator: "\n"
+excerpt_separator: "<!--break-->"
 pygments: true
 markdown: redcarpet
 redcarpet:
