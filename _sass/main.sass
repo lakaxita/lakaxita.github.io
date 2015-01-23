@@ -15,6 +15,12 @@ $icon: Lakaxita
     -webkit-transform: ($arg)
     -moz-transform: ($arg)
 
+=sticky
+    position: sticky !important
+    position: -o-sticky !important
+    position: -webkit-sticky !important
+    position: -moz-sticky !important
+
 h1, h2, h3, h4, h5, h6
     font-family: inherit
     color: inherit
@@ -188,7 +194,7 @@ div#wrap:before
     left: 50%
     +transform(translate(-50%,-50%))
     @media #{$medium-up}
-        position: sticky !important
+        +sticky
         top: 5rem
 
 
