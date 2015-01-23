@@ -2,7 +2,7 @@ $black: #0a0a0a
 $dark: #171717
 $grey: #4d4d4d
 $light: #999999
-$white: #e6e6e6 
+$white: #e6e6e6
 
 $serif: Arvo
 $sans: Lato
@@ -173,21 +173,20 @@ div#wrap
             margin: 2rem
 
 div#wrap:before
-    position: fixed
+    position: sticky !important
     content: 'o'
     font-family: $icon
     text-align: center
-    padding: 17px
+    height: 80px
+    width: 80px
+    z-index: 2
     font-size: 50px
     color: $white
     pointer-events: none
     background: $dark
     border-radius: 50%
-    height: 80px
     left: 50%
     +transform(translate(-50%,-50%))
-    width: 80px
-    z-index: 2
 
 section#description ~ div#wrap:before
     position: absolute
