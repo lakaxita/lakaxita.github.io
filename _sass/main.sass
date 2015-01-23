@@ -39,7 +39,7 @@ header
     @media #{$medium-up}
         position: fixed
         top: 0
-        height: 5em
+        height: 5rem
     h1#title
         color: $white
         margin: -30px 0 0 0
@@ -173,7 +173,7 @@ div#wrap
             margin: 2rem
 
 div#wrap:before
-    position: sticky !important
+    position: absolute
     content: 'o'
     font-family: $icon
     text-align: center
@@ -187,10 +187,10 @@ div#wrap:before
     border-radius: 50%
     left: 50%
     +transform(translate(-50%,-50%))
+    @media #{$medium-up}
+        position: sticky !important
+        top: 5rem
 
-section#description ~ div#wrap:before
-    position: absolute
-    z-index: 0
 
 footer
     color: $white
