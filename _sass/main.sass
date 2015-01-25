@@ -69,7 +69,7 @@ header
     ul#social
         text-align: right
         margin: .5rem 0
-        padding: 0 !important
+        padding: 0 .5em !important
         +grid-column($columns:5, $offset:4)
         @media (max-width: 350px)
             +grid-column($columns:7, $offset:2)
@@ -196,7 +196,8 @@ div.field-label
 div.field-items, div.field-label
     display: inline-block
     font-size: .9em
-
+ul.links.inline, div.field-name-field-tags
+    display: none
 div.field-item.even
     padding: 0 !important
 
