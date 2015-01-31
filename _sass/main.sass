@@ -122,7 +122,7 @@ div#wrap
     @media #{$medium-up}
         margin: 5em 0 0 0 !important
     aside
-        margin-top: 20px
+        margin-top: 60px
         +grid-column($columns:12)
         @media #{$large-up}
             +grid-column($columns:3)
@@ -142,12 +142,11 @@ div#wrap
                 li.category
                     background: scale-lightness(#000, 14%)
     main
-        margin: 20px 0 0 0
+        margin: 60px 0 0 0
         padding: 0 20px !important
         +grid-column($columns:12)
         @media #{$medium-up}
             padding: 0 50px !important
-            margin: 0
             +grid-column($columns:9)
         article
             margin: 0 0 7rem 0
@@ -220,7 +219,6 @@ div#wrap:before
     text-align: center
     height: 80px
     width: 80px
-    z-index: 2
     font-size: 50px
     color: $white
     pointer-events: none
@@ -229,10 +227,6 @@ div#wrap:before
     left: 50%
     padding: 3px
     +transform(translate(-50%,-50%))
-    @media #{$medium-up}
-        +sticky
-        top: 5rem
-
 
 footer
     color: $white
