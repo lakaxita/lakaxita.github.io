@@ -142,11 +142,12 @@ div#wrap
                 li.category
                     background: scale-lightness(#000, 14%)
     main
-        margin: 0
-        padding: 0 !important
+        margin: 20px 0 0 0
+        padding: 0 20px !important
         +grid-column($columns:12)
-        @media #{$large-up}
+        @media #{$medium-up}
             padding: 0 50px !important
+            margin: 0
             +grid-column($columns:9)
         article
             margin: 0 0 7rem 0
