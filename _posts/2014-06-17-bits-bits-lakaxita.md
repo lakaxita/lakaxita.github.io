@@ -1,4 +1,6 @@
 ---
+
+categories: hacklab
 layout: post
 published: true
 title: "Bits & bits: Ekainaren 21ean Lakaxitan"

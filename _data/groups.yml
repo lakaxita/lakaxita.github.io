@@ -5,7 +5,7 @@ asanblada:
 hacklab:
     name: Labkaxita Hacklaba
 stop-desahucios:
-    name: Stop Desahucios
+    name: Stop Kaleratzeak
 erletxea:
     name: Erletxea
 korapilatuz:
@@ -20,8 +20,8 @@ herri-ziztadak:
     name: Herri Ziztadak
 trukeados:
     name: Truke Ados
-aldatxa:
-    name: Aldatxa Baratza
+aldatsa:
+    name: Aldatsa Baratza
 barealaia:
     name: Barealaia Baratza
 antifak:
@@ -32,3 +32,9 @@ errepublikarrak:
     name: Irungo Errepublikarrak
 tas:
     name: Txingudi Anti Sexista
+stop-arrazakeria:
+    name: Stop Arrazakeria
+lkxt:
+    name: Lkxt Koop
+palestina:
+    name: Irun Palestinarekin
