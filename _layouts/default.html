@@ -29,7 +29,13 @@
         </header>
         {% if page.type == 'home' %}
             <section id="description">
-            {% include header.html %}
+                <div id="description_text">
+                    <h1>{{ site.title }}</h1>
+                    <p>{{ site.description }}</p>
+                </div>
+                <div id="description_image">
+                    <img src="{{ site.baseurl}}images/lakaxita.png" alt="Lakaxita"/>
+                </div>
             </section>
         {% endif %}
 
@@ -41,7 +47,8 @@
             <aside>
                 <nav>
                     <ul>
-                        {% include extra_nav.html %}
+                        <li><a href="/about">Lakaxitari buruz</a></li>
+                        <li><a href="/jaion">Jaion</a></li>
                         {% for cat in site.categories %}
                         {% assign category = cat|first %}
                         <li class="category"><a data-category="{{ category }}" href="/#{{ category }}">{{ site.data.groups[category].name }}</a></li>
