@@ -3,4 +3,4 @@ layout: page
 title: Jaioneko txandak
 ---
 
-<img src="{{ site.baseurl }}images/txandak.png" />
+![Txandak]({{ site.baseurl }}assets/images/txandak.png)

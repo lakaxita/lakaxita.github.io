@@ -6,13 +6,13 @@ title: Lakaxita
 Lakaxitari buruz gehiago jakin nahi baduzu, duela urte batzuk argitaratutako
 liburua duzu eskura ([pdf][pdf]|[epub][epub]).
 
-[pdf]: {{ site.baseurl }}book/lakaxita.pdf
-[epub]: {{ site.baseurl }}book/lakaxita.epub
+[pdf]: {{ site.baseurl }}assets/book/lakaxita.pdf
+[epub]: {{ site.baseurl }}assets/book/lakaxita.epub
 
 Kontaktua
 ---------
 
-Eposta helbidea: [kontaktua@lakaxita.org](mailto:kontaktua@lakaxita.org)
+Eposta helbidea: <kontaktua@lakaxita.org>
 
 Posta helbidea:
 
