@@ -27,7 +27,7 @@ Lucio Urtubiak - garaian Lakaxitan bere dokumentala aurkezten egona - esatea gus
 
 -------------------------------
 
-<img src="{{ site.baseurl }}assets/images/jaion2016.jpg" style="float: left; margin: 0 3% 3% 0;" alt="Jaion 2016"/>
+<img src="{{ site.baseurl }}assets/images/xita.png" style="float: left; margin: 0 3% 3% 0;" alt="Jaion 2016"/>
 
 En algunas culturas el 13 es un número maldito. La superstición acompaña a este número primo desde tiempos inmemoriales. Sin embargo, esto no parece influir en nada a la celebración del Jaion que en este año 2016 celebrará el próximo día 23 de abril su treceavo año consecutivo. Este acto es realizado por Lakaxita, que celebra igualmente ese día su onceavo cumpleaños.
 
